@@ -640,7 +640,7 @@
 
     /************ INDEX ************/
     .imagen-index img{
-        padding: 65px 0 0;
+        padding: 58px 0 0;
     }
     .texto-index {
         margin: 10px;
@@ -745,7 +745,7 @@
     .grilla-videos {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, 1fr);
-        padding: 20px 20px 50px;
+        padding: 20px 0px 50px;
         gap: 20px;
     }
     /************ CIERRE MULTIMEDIA ************/
