@@ -55,58 +55,56 @@
     /************ CIERRE INDEX ************/
 
     /************ DISCOGRAFIA ************/
-    main{
-        .discografia {
-            padding: 0 0 50px;
-            .title-container{
-                height: 625px;
-                h1 {
-                    font-size: 30px;
-                }
+    main .discografia {
+        padding: 0 0 50px;
+        .title-container{
+            height: 625px;
+            h1 {
+                font-size: 30px;
             }
-            .album{
-                .titulo-album {
-                    padding: 100px 15px 10px;
+        }
+        .album{
+            .titulo-album {
+                padding: 100px 15px 10px;
+            }
+            .album-container {
+                grid-template-columns: 1fr;
+                /* grid-template-rows: 1fr 1fr; */
+                padding: 0 15px;
+                justify-items: flex-start;
+                .lista-album {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 30px 0;
+                    .lista-cancion-album ul{
+                        padding-left: 0;
+                    }
                 }
-                .album-container {
-                    grid-template-columns: 1fr;
-                    /* grid-template-rows: 1fr 1fr; */
-                    padding: 0 15px;
-                    justify-items: flex-start;
-                    .lista-album {
-                        width: 100%;
-                        display: flex;
-                        flex-direction: row;
-                        padding: 30px 0;
-                        .lista-cancion-album ul{
-                            padding-left: 0;
-                        }
-                    }
-                    .portada-album img {
-                        width: 290px;
-                        border: 2px solid white;
-                        border-radius: 10px;
-                    }
+                .portada-album img {
+                    width: 290px;
+                    border: 2px solid white;
+                    border-radius: 10px;
                 }
             }
         }
-        /* SENCILLOS Y EPS*/
-        .section-eps{
-            .title-eps {
-                background-color: black;
-                h2 {
-                    margin: 20px 70px;
-                    text-align: center;
+    }
+    /* SENCILLOS Y EPS*/
+    main .section-eps{
+        .title-eps {
+            background-color: black;
+            h2 {
+                margin: 20px 70px;
+                text-align: center;
+            }
+        }
+        .grilla-eps {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 100px);
+            padding: 50px 15px;
+            .lista-eps iframe {
+                    height: 90px;
                 }
-            }
-            .grilla-eps {
-                grid-template-columns: 1fr;
-                grid-template-rows: repeat(6, 100px);
-                padding: 50px 15px;
-                .lista-eps iframe {
-                        height: 90px;
-                    }
-            }
         }
     }
     /************ CIERRE DISCOGRAFIA ************/

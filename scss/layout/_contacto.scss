@@ -11,12 +11,12 @@
         .form-input-container{
             padding: 0 50px;
             background-color: rgba(220, 220, 220, .7);
-            box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+            box-shadow: 10px 10px 15px $color-secundario(0, 0, 0, .7);
             .form-titulo h2{
                 font-family: "akira";
                 font-size: 70px;
-                color: white;
-                text-shadow: 5px 5px 15px black;
+                color: $color-texto;
+                text-shadow: 5px 5px 15px $color-secundario;
                 text-align: center;
                 padding: 30px 0;
             }
@@ -34,16 +34,16 @@
                 justify-content: center;
             }
             .form-control{
-                border: 1px solid #FD72AB;
+                border: 1px solid $color-primario;
             }
             .form-check-input:checked{
-                background-color: #FD72AB;
-                border-color: #FD72AB;
+                background-color: $color-primario;
+                border-color: $color-primario;
             }
             .btn{
-                background-color: #FD72AB;
+                background-color: $color-primario;
                 margin-bottom: 30px;
-                color: white;
+                color: $color-texto;
                 font-family: "akira";
                 font-size: 20px;
                 padding: 10px;

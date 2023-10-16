@@ -1,10 +1,10 @@
 /********************************** DISCOGRAFIA **********************************/
 main{
-    background-color: black;
+    background-color: $color-secundario;
     /*DISCOGRAFIA*/
     .discografia {
     width: 100%;
-    background-color: #FD72AB;
+    background-color: $color-primario;
     padding: 0 0 100px;
         .title-container {
             width: 100%;
@@ -18,7 +18,7 @@ main{
                 font-family: "akira";
                 font-size: 70px;
                 color: white;
-                text-shadow: 5px 5px 15px black;
+                text-shadow: 5px 5px 15px $color-secundario;
                 display: flex;
                 align-items: flex-end;
                 margin-bottom: 30px;
@@ -36,12 +36,12 @@ main{
                 .año {
                     font-family: "montserrat";
                     font-weight: bold;
-                    color: white;
+                    color: $color-texto;
                     font-size: 20px;
                 }
                 h4 {
                     font-family: "akira";
-                    color: white;
+                    color: $color-texto;
                     font-size: 30px;
                 }
             }
@@ -55,7 +55,7 @@ main{
                     flex-direction: column;
                     img {
                         width: 500px;
-                        border: 2px solid white;
+                        border: 2px solid $color-texto;
                         border-radius: 10px;
                     }
                     .youtube {
@@ -63,7 +63,7 @@ main{
                         a {
                             font-family: "montserrat";
                             font-size: 15px;
-                            color: white;
+                            color: $color-texto;
                             text-decoration: underline;
                         }
                     }
@@ -76,7 +76,7 @@ main{
                     justify-content: space-between;
                     ul li {
                         font-family: "montserrat";
-                        color: white;
+                        color: $color-texto;
                         display: list-item;
                         list-style-type: none;
                         padding: 10px;
@@ -98,7 +98,7 @@ main{
                 margin: 50px;
                 font-family: "akira";
                 font-size: 30px;
-                color: white;
+                color: $color-texto;
             }
         }
         .grilla-eps {

@@ -1,6 +1,6 @@
 /********************************** FOOTER **********************************/
 .footer {
-    background-color: black;
+    background-color: $color-secundario;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -17,7 +17,7 @@
             list-style-type: none;
             a {
                 font-family: "Montserrat";
-                color: white;
+                color: $color-texto;
                 font-size: 15px;
                 text-decoration: underline;
                 padding: 10px 20px;
@@ -38,7 +38,7 @@
             h4 {
                 font-family: "akira";
                 font-size: 15px;
-                color: white;
+                color: $color-texto;
             }
         }
         .iconos-redes {
@@ -64,7 +64,7 @@
         p {
             font-family: "montserrat";
             font-size: 10px;
-            color: white;
+            color: $color-texto;
             text-align: center;
         }
     }

@@ -1,6 +1,6 @@
 /********************************** HEADER **********************************/
 .navbar{
-    background-color: black;
+    background-color: $color-secundario;
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -10,11 +10,11 @@
     .navbar-collapse{
         justify-content: flex-end;
         .nav-link{
-            color: white;
+            color: $color-texto;
             font-family: "akira";
             margin-right: 10px;
             &:hover{
-                color: #FD72AB;
+                color: $color-primario;
             }
         }
     }

@@ -13,7 +13,7 @@
 
 /********************************** HEADER **********************************/
 .navbar {
-  background-color: #000000;
+  background-color: black;
   z-index: 1;
   position: fixed;
   width: 100%;
@@ -25,7 +25,7 @@
   justify-content: flex-end;
 }
 .navbar .navbar-collapse .nav-link {
-  color: #ffffff;
+  color: white;
   font-family: "akira";
   margin-right: 10px;
 }
@@ -123,7 +123,7 @@ main .discografia .title-container h1 {
   font-family: "akira";
   font-size: 70px;
   color: white;
-  text-shadow: 5px 5px 15px #000000;
+  text-shadow: 5px 5px 15px black;
   display: flex;
   align-items: flex-end;
   margin-bottom: 30px;
@@ -141,12 +141,12 @@ main .discografia .album .titulo-album {
 main .discografia .album .titulo-album .año {
   font-family: "montserrat";
   font-weight: bold;
-  color: #ffffff;
+  color: white;
   font-size: 20px;
 }
 main .discografia .album .titulo-album h4 {
   font-family: "akira";
-  color: #ffffff;
+  color: white;
   font-size: 30px;
 }
 main .discografia .album .album-container {
@@ -161,7 +161,7 @@ main .discografia .album .album-container .portada-album {
 }
 main .discografia .album .album-container .portada-album img {
   width: 500px;
-  border: 2px solid #ffffff;
+  border: 2px solid white;
   border-radius: 10px;
 }
 main .discografia .album .album-container .portada-album .youtube {
@@ -170,7 +170,7 @@ main .discografia .album .album-container .portada-album .youtube {
 main .discografia .album .album-container .portada-album .youtube a {
   font-family: "montserrat";
   font-size: 15px;
-  color: #ffffff;
+  color: white;
   text-decoration: underline;
 }
 main .discografia .album .album-container .lista-album {
@@ -182,7 +182,7 @@ main .discografia .album .album-container .lista-album {
 }
 main .discografia .album .album-container .lista-album ul li {
   font-family: "montserrat";
-  color: #ffffff;
+  color: white;
   display: list-item;
   list-style-type: none;
   padding: 10px;
@@ -200,7 +200,7 @@ main .section-eps .title-eps h2 {
   margin: 50px;
   font-family: "akira";
   font-size: 30px;
-  color: #ffffff;
+  color: white;
 }
 main .section-eps .grilla-eps {
   display: grid;
@@ -333,8 +333,8 @@ main .videos .galeria-videos .grilla-videos {
 }
 .tour .contenedor-acordeon {
   width: 100%;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: black;
+  color: white;
 }
 .tour .contenedor-acordeon .title-tour {
   background-color: #FD72AB;
@@ -389,7 +389,7 @@ main .videos .galeria-videos .grilla-videos {
   padding: 0 10px;
 }
 .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
-  background-color: #ffffff;
+  background-color: white;
   color: #000000;
   font-size: 20px;
   display: flex;
@@ -412,9 +412,9 @@ main .videos .galeria-videos .grilla-videos {
   font-size: 10px;
 }
 .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
-  background-color: #FD72AB 253, 114, 171;
+  background-color: rgb(253, 114, 171);
   font-family: "akira";
-  color: #ffffff;
+  color: white;
   padding: 10px;
   font-size: 20px;
 }
@@ -435,13 +435,13 @@ main .videos .galeria-videos .grilla-videos {
 .contactanos .form-container .form-input-container {
   padding: 0 50px;
   background-color: rgba(220, 220, 220, 0.7);
-  box-shadow: 10px 10px 15px #000000 0, 0, 0, 0.7;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
 }
 .contactanos .form-container .form-input-container .form-titulo h2 {
   font-family: "akira";
   font-size: 70px;
   color: #ffffff;
-  text-shadow: 5px 5px 15px #000000;
+  text-shadow: 5px 5px 15px black;
   text-align: center;
   padding: 30px 0;
 }
@@ -477,7 +477,7 @@ main .videos .galeria-videos .grilla-videos {
 /********************************** CIERRE CONTACTANOS **********************************/
 /********************************** FOOTER **********************************/
 .footer {
-  background-color: #000000;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -497,7 +497,7 @@ main .videos .galeria-videos .grilla-videos {
 }
 .footer .nav-list ul li a {
   font-family: "Montserrat";
-  color: #ffffff;
+  color: white;
   font-size: 15px;
   text-decoration: underline;
   padding: 10px 20px;
@@ -518,7 +518,7 @@ main .videos .galeria-videos .grilla-videos {
 .footer .redes .titulo-redes h4 {
   font-family: "akira";
   font-size: 15px;
-  color: #ffffff;
+  color: white;
 }
 .footer .redes .iconos-redes {
   display: flex;
@@ -543,7 +543,7 @@ main .videos .galeria-videos .grilla-videos {
 .footer .copyright p {
   font-family: "montserrat";
   font-size: 10px;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 

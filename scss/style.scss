@@ -1,20 +1,10 @@
-@font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Regular.ttf");
-    font-family: "Akira";
-    src: url("../Fonts/Akira\ Expanded\ Demo.otf");
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-@import"header";
-@import"index";
-@import"discografia";
-@import"multimedia";
-@import"tour";
-@import"contacto";
-@import"footer";
+@import"base/variables";
+@import"base/generales";
+@import"layout/header";
+@import"views/index";
+@import"layout/discografia";
+@import"layout/multimedia";
+@import"layout/tour";
+@import"layout/contacto";
+@import"layout/footer";
 @import"queries";

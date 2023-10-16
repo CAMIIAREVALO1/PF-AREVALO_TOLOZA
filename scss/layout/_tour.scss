@@ -12,10 +12,10 @@
     }
     .contenedor-acordeon {
         width: 100%;
-        background-color: black;
-        color: white;
+        background-color: $color-secundario;
+        color: $color-texto;
         .title-tour {
-            background-color: #FD72AB;
+            background-color: $color-primario;
             display: flex;
             justify-content: center;
             margin-bottom: 80px;
@@ -52,7 +52,7 @@
                     margin-bottom: 50px;
                     align-items: center;
                     .show-date {
-                        background-color: #FD72AB;
+                        background-color: $color-primario;
                         font-family: "Akira";
                         font-size: 35px;
                         display: flex;
@@ -63,8 +63,8 @@
                             padding: 0 10px;
                         }
                         .show-date-year {
-                            background-color: white;
-                            color: #000000;
+                            background-color: $color-texto;
+                            color: $color-secundario;
                             font-size: 20px;
                             display: flex;
                             justify-content: center;
@@ -86,9 +86,9 @@
                             font-size: 10px;
                         }
                         .show-button button {
-                            background-color: rgb(253, 114, 171);
+                            background-color:$color-primario(253, 114, 171);
                             font-family: "akira";
-                            color: white;
+                            color: $color-texto;
                             padding: 10px;
                             font-size: 20px;
                         }
