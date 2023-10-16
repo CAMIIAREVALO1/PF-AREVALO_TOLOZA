@@ -1,0 +1,54 @@
+/********************************** CONTACTANOS **********************************/
+.contactanos{
+    height: auto;
+    width: 100%;
+    background-image: url(../IMG/usted-group.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .form-container{
+        padding: 200px 0 100px;
+        .form-input-container{
+            padding: 0 50px;
+            background-color: rgba(220, 220, 220, .7);
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+            .form-titulo h2{
+                font-family: "akira";
+                font-size: 70px;
+                color: white;
+                text-shadow: 5px 5px 15px black;
+                text-align: center;
+                padding: 30px 0;
+            }
+            .form-label{
+                font-family: "montserrat";
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .form-text{
+                font-family: "montserrat";
+                font-size: 15px;
+            }
+            .btn-contenedor{
+                display: flex;
+                justify-content: center;
+            }
+            .form-control{
+                border: 1px solid #FD72AB;
+            }
+            .form-check-input:checked{
+                background-color: #FD72AB;
+                border-color: #FD72AB;
+            }
+            .btn{
+                background-color: #FD72AB;
+                margin-bottom: 30px;
+                color: white;
+                font-family: "akira";
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
+/********************************** CIERRE CONTACTANOS **********************************/

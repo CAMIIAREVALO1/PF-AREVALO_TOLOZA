@@ -1,0 +1,22 @@
+/********************************** HEADER **********************************/
+.navbar{
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    img{
+        height: 50px;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+        .nav-link{
+            color: white;
+            font-family: "akira";
+            margin-right: 10px;
+            &:hover{
+                color: #FD72AB;
+            }
+        }
+    }
+}
+/********************************** CIERRE HEADER **********************************/

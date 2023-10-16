@@ -1,0 +1,120 @@
+/********************************** DISCOGRAFIA **********************************/
+main{
+    background-color: black;
+    /*DISCOGRAFIA*/
+    .discografia {
+    width: 100%;
+    background-color: #FD72AB;
+    padding: 0 0 100px;
+        .title-container {
+            width: 100%;
+            height: 710px;
+            background-image: url(../IMG/usted-senalemelo-estadio-obras.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            h1 {
+                font-family: "akira";
+                font-size: 70px;
+                color: white;
+                text-shadow: 5px 5px 15px black;
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 30px;
+            }
+        }
+        /* SECCION ALBUM */
+        .album {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .titulo-album {
+                display: flex;
+                flex-direction: column;
+                padding: 100px 100px 10px;
+                .año {
+                    font-family: "montserrat";
+                    font-weight: bold;
+                    color: white;
+                    font-size: 20px;
+                }
+                h4 {
+                    font-family: "akira";
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+            .album-container {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                justify-items: center;
+                padding: 0 100px;
+                .portada-album {
+                    display: flex;
+                    flex-direction: column;
+                    img {
+                        width: 500px;
+                        border: 2px solid white;
+                        border-radius: 10px;
+                    }
+                    .youtube {
+                        padding: 10px 0 0;
+                        a {
+                            font-family: "montserrat";
+                            font-size: 15px;
+                            color: white;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .lista-album {
+                    width: 820px;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 5px 40px;
+                    justify-content: space-between;
+                    ul li {
+                        font-family: "montserrat";
+                        color: white;
+                        display: list-item;
+                        list-style-type: none;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+    /*CIERRE DISCOGRAFIA*/
+    /*SENCILLOS Y EPS*/
+    .section-eps {
+        width: 100%;
+        padding: 0 0 25px;
+        .title-eps {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h2 {
+                margin: 50px;
+                font-family: "akira";
+                font-size: 30px;
+                color: white;
+            }
+        }
+        .grilla-eps {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 400px 400px;
+            padding: 20px 100px;
+            .lista-eps {
+                justify-self: center;
+                align-self: center;
+                iframe {
+                    height: 355px;
+                }
+            }
+        }
+    }
+    /*CIERRE SENCILLOS Y EPS*/
+}
+/********************************** CIERRE DISCOGRAFIA **********************************/

@@ -1,0 +1,210 @@
+/******************************************************************************************************MOBILE******************************************************************************************************/
+@media (min-width:328px) and (max-width:480px) {
+
+    /************ HEADER ************/
+    .navbar{
+        background-color: #FD72AB;
+        img{
+            height: 40px;
+        }
+        .navbar-toggler{
+            height: 40px;
+            .navbar-toggler-icon{
+                height: 20px;
+            }
+        }
+        .nav-link{
+            color: white;
+            font-family: "akira";
+            margin-right: 10px;
+        }
+    }
+    /************ CIERRE HEADER ************/
+
+    /************ INDEX ************/
+    main{
+        .imagen-index img{
+            padding: 58px 0 0;
+        }
+        .section-index .texto-index {
+            margin: 10px;
+            p {
+                font-size: 15px;
+                text-align: center;
+                padding: 15px 20px;
+            }
+        }
+        .titulo-integrantes img {
+            margin-bottom: 20px;
+        }
+        .section-integrantes{
+            .integrantes-contenedor {
+                flex-direction: column;
+                justify-content: center;
+                    img {
+                    width: 200px;
+                    height: 268px;
+                    p {
+                        font-size: 14px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+    /************ CIERRE INDEX ************/
+
+    /************ DISCOGRAFIA ************/
+    main{
+        .discografia {
+            padding: 0 0 50px;
+            .title-container{
+                height: 625px;
+                h1 {
+                    font-size: 30px;
+                }
+            }
+            .album{
+                .titulo-album {
+                    padding: 100px 15px 10px;
+                }
+                .album-container {
+                    grid-template-columns: 1fr;
+                    /* grid-template-rows: 1fr 1fr; */
+                    padding: 0 15px;
+                    justify-items: flex-start;
+                    .lista-album {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 30px 0;
+                        .lista-cancion-album ul{
+                            padding-left: 0;
+                        }
+                    }
+                    .portada-album img {
+                        width: 290px;
+                        border: 2px solid white;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        /* SENCILLOS Y EPS*/
+        .section-eps{
+            .title-eps {
+                background-color: black;
+                h2 {
+                    margin: 20px 70px;
+                    text-align: center;
+                }
+            }
+            .grilla-eps {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 100px);
+                padding: 50px 15px;
+                .lista-eps iframe {
+                        height: 90px;
+                    }
+            }
+        }
+    }
+    /************ CIERRE DISCOGRAFIA ************/
+
+    /************ MULTIMEDIA ************/
+    main{
+        .fotos-galeria{
+            padding: 35px;
+            .title-fotos h1{
+                font-size: 50px;
+            }
+            .galeria{
+                padding: 20px 0;
+                .grilla-fotos{
+                    width: 100%;
+                }
+            }
+        }
+        .videos{
+            .title-videos h1{
+                font-size: 50px;
+            }
+            .galeria-videos .grilla-videos {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(8, 1fr);
+                padding: 20px 0px 50px;
+                gap: 20px;
+            }
+        }
+    }
+    /************ CIERRE MULTIMEDIA ************/
+
+    /************ TOUR ************/
+    .tour{
+        .imagen-tour img{
+            padding: 65px 0 0;
+        }
+        .contenedor-acordeon{
+            .title-tour {
+                margin-bottom: 0px;
+                h1 {
+                    font-size: 35px;
+                    text-align: center;
+                }
+            }
+            .acordeon label {
+                font-size: 20px;
+                padding: 50px 40px 20px 20px;
+            }
+        }
+    }
+    /************ CIERRE TOUR ************/
+
+    /************ CONTACTO ************/
+    .contactanos{
+        background-size: cover;
+        .form-container{
+            padding: 150px 0 100px;
+            .row{
+                margin: 0;
+                .form-input-container{
+                    padding: 0 10px;
+                    .form-titulo h2{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+    /************ CIERRE CONTACTO ************/
+
+    /************ FOOTER ************/
+    .footer{
+        .nav-list {
+            justify-content: flex-start;
+            padding: 0;
+            ul li {
+                display: list-item;
+                padding: 5px;
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+        .redes {
+            .titulo-redes h4 {
+                font-size: 12px;
+            }
+            .iconos-redes ul li img {
+                height: 35px;
+            }
+        }
+        .copyright {
+            padding: 0;
+            p {
+                font-size: 9px;
+            }
+        }
+    }
+    /************ CIERRE FOOTER ************/
+}
