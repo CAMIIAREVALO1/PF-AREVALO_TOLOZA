@@ -1,96 +1,104 @@
 /********************************** TOUR **********************************/
-.tour {
-    width: 100%;
-    .imagen-tour {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img {
-            padding: 10px 0 0;
-            width: 100%;
-        }
-    }
-    .contenedor-acordeon {
+main{
+    background-color: $color-secundario;
+    .tour {
         width: 100%;
-        background-color: $color-secundario;
-        color: $color-texto;
-        .title-tour {
-            background-color: $color-primario;
+        .imagen-tour {
             display: flex;
             justify-content: center;
-            margin-bottom: 80px;
-            h1 {
-                font-family: "akira";
-                font-size: 70px;
-                margin: 10px 20px;
+            align-items: center;
+            img {
+                padding: 10px 0 0;
+                width: 100%;
             }
         }
-        .acordeon {
-            display: flex;
-            flex-direction: column;
-            label {
-                font-family: "akira";
-                font-size: 30px;
-                cursor: pointer;
-                padding: 20px 40px 50px 40px;
-                transition: all 300ms ease;
+        .contenedor-acordeon {
+            width: 100%;
+            background-color: $color-secundario;
+            color: $color-texto;
+            .title-tour {
+                background-color: $color-primario;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 80px;
+                h1 {
+                    font-family: "akira";
+                    font-size: 70px;
+                    margin: 10px 20px;
+                }
             }
-            .btn-acordeon {
-                display: none;
-            }
-            .btn-acordeon:checked~.contenido-acordeon {
-                max-height: 2000px;
-                padding: 15px 0px;
-            }
-            .contenido-acordeon {
-                margin: 0px 40px;
-                max-height: 0;
-                overflow: hidden;
-                transition: all 300ms ease;
-                .show-item {
-                    display: flex;
-                    margin-bottom: 50px;
-                    align-items: center;
-                    .show-date {
-                        background-color: $color-primario;
-                        font-family: "Akira";
-                        font-size: 35px;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        margin-right: 40px;
-                        .show-date-day {
-                            padding: 0 10px;
-                        }
-                        .show-date-year {
-                            background-color: $color-texto;
-                            color: $color-secundario;
-                            font-size: 20px;
-                            display: flex;
-                            justify-content: center;
-                        }
+            .acordeon {
+                display: flex;
+                flex-direction: column;
+                label {
+                    font-family: "akira";
+                    font-size: 30px;
+                    cursor: pointer;
+                    padding: 20px 40px 50px 40px;
+                    transition: all 300ms ease;
+                    &:hover{
+                        color: $color-primario;
                     }
-                    .show-info {
-                        width: 100%;
+                }
+                .btn-acordeon {
+                    display: none;
+                }
+                .btn-acordeon:checked~.contenido-acordeon {
+                    max-height: 2000px;
+                    padding: 15px 0px;
+                }
+                .contenido-acordeon {
+                    margin: 0px 40px;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: all 300ms ease;
+                    .show-item {
                         display: flex;
+                        margin-bottom: 50px;
                         align-items: center;
-                        justify-content: space-between;
-                        font-family: 'Montserrat Alternates', sans-serif;
-                        font-size: 20px;
-                        .show-country {
+                        .show-date {
+                            background-color: $color-primario;
                             font-family: "Akira";
-                            font-size: 30px;
+                            font-size: 35px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            margin-right: 40px;
+                            .show-date-day {
+                                padding: 0 10px;
+                            }
+                            .show-date-year {
+                                background-color: $color-texto;
+                                color: $color-secundario;
+                                font-size: 20px;
+                                display: flex;
+                                justify-content: center;
+                            }
                         }
-                        .show-info-plus {
+                        .show-info {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
                             font-family: 'Montserrat Alternates', sans-serif;
-                            font-size: 10px;
-                        }
-                        .show-button button {
-                            background-color:$color-primario(253, 114, 171);
-                            font-family: "akira";
-                            color: $color-texto;
-                            padding: 10px;
-                            font-size: 20px;
+                            font-size: 25px;
+                            .show-country {
+                                font-family: "Akira";
+                                font-size: 30px;
+                            }
+                            .show-info-plus {
+                                font-family: 'Montserrat Alternates', sans-serif;
+                                font-size: 10px;
+                            }
+                            .show-button button {
+                                background-color:$color-primario;
+                                border: 2px $color-primario;
+                                border-radius: 5px;
+                                font-family: "akira";
+                                color: $color-texto;
+                                padding: 10px;
+                                font-size: 20px;
+                            }
                         }
                     }
                 }

@@ -317,64 +317,70 @@ main .videos .galeria-videos .grilla-videos {
 
 /********************************** CIERRE MULTIMEDIA **********************************/
 /********************************** TOUR **********************************/
-.tour {
+main {
+  background-color: #000000;
+}
+main .tour {
   width: 100%;
 }
-.tour .imagen-tour {
+main .tour .imagen-tour {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.tour .imagen-tour img {
+main .tour .imagen-tour img {
   padding: 10px 0 0;
   width: 100%;
 }
-.tour .contenedor-acordeon {
+main .tour .contenedor-acordeon {
   width: 100%;
   background-color: #000000;
   color: #ffffff;
 }
-.tour .contenedor-acordeon .title-tour {
+main .tour .contenedor-acordeon .title-tour {
   background-color: #FD72AB;
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
-.tour .contenedor-acordeon .title-tour h1 {
+main .tour .contenedor-acordeon .title-tour h1 {
   font-family: "akira";
   font-size: 70px;
   margin: 10px 20px;
 }
-.tour .contenedor-acordeon .acordeon {
+main .tour .contenedor-acordeon .acordeon {
   display: flex;
   flex-direction: column;
 }
-.tour .contenedor-acordeon .acordeon label {
+main .tour .contenedor-acordeon .acordeon label {
   font-family: "akira";
   font-size: 30px;
   cursor: pointer;
   padding: 20px 40px 50px 40px;
   transition: all 300ms ease;
 }
-.tour .contenedor-acordeon .acordeon .btn-acordeon {
+main .tour .contenedor-acordeon .acordeon label:hover {
+  color: #FD72AB;
+}
+main .tour .contenedor-acordeon .acordeon .btn-acordeon {
   display: none;
 }
-.tour .contenedor-acordeon .acordeon .btn-acordeon:checked ~ .contenido-acordeon {
+main .tour .contenedor-acordeon .acordeon .btn-acordeon:checked ~ .contenido-acordeon {
   max-height: 2000px;
   padding: 15px 0px;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon {
   margin: 0px 40px;
   max-height: 0;
   overflow: hidden;
   transition: all 300ms ease;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
   display: flex;
   margin-bottom: 50px;
   align-items: center;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
   background-color: #FD72AB;
   font-family: "Akira";
   font-size: 35px;
@@ -383,34 +389,36 @@ main .videos .galeria-videos .grilla-videos {
   justify-content: center;
   margin-right: 40px;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-day {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-day {
   padding: 0 10px;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
   background-color: #ffffff;
   color: #000000;
   font-size: 20px;
   display: flex;
   justify-content: center;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-country {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-country {
   font-family: "Akira";
   font-size: 30px;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-info-plus {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-info-plus {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 10px;
 }
-.tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
-  background-color: #FD72AB 253, 114, 171;
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+  background-color: #FD72AB;
+  border: 2px #FD72AB;
+  border-radius: 5px;
   font-family: "akira";
   color: #ffffff;
   padding: 10px;
