@@ -111,7 +111,7 @@ main .discografia {
 main .discografia .title-container {
   width: 100%;
   height: 710px;
-  background-image: url(../IMG/usted-senalemelo-estadio-obras.jpg);
+  background-image: url(../IMG/usted-senalemelo-estadio-obras.webp);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -430,7 +430,7 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
 .contactanos {
   height: auto;
   width: 100%;
-  background-image: url(../IMG/usted-group.jpg);
+  background-image: url(../IMG/usted-group.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
