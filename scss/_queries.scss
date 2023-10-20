@@ -114,7 +114,7 @@
         .fotos-galeria{
             padding: 35px;
             .title-fotos h1{
-                font-size: 50px;
+                font-size: 30px;
             }
             .galeria{
                 padding: 20px 0;
@@ -125,7 +125,7 @@
         }
         .videos{
             .title-videos h1{
-                font-size: 50px;
+                font-size: 30px;
             }
             .galeria-videos .grilla-videos {
                 grid-template-columns: 1fr;
@@ -153,19 +153,34 @@
                         text-align: center;
                     }
                 }
-                .acordeon .contenido-acordeon .show-item{
-                    flex-direction: column;
-                    align-items: normal;
-                    .show-date{
-                        width: 100%;
-                        text-align: center;
+                .acordeon {
+                    label{
+                        font-size: 23px;
                     }
-                    .show-info{
-                        flex-direction: column;
-                        align-items: flex-start;
-                        margin-top: 20px;
-                        .show-button{
-                            margin-top: 10px;
+                    .contenido-acordeon {
+                        margin: 0 15px;
+                        .show-item{
+                            flex-direction: row;
+                            align-items: flex-start;
+                            .show-date{
+                                font-size: 18px;
+                                margin-right: 20px;
+                                line-height: 3.5em;
+                            }
+                            .show-info{
+                                flex-direction: column;
+                                align-items: flex-start;
+                                font-size: 15px;
+                                .show-country{
+                                    font-size: 18px;
+                                }
+                                .show-button{
+                                    margin-top: 10px;
+                                    button{
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }

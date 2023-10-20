@@ -385,8 +385,8 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
 }
 main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
   background-color: #FD72AB;
-  font-family: "Akira";
   font-size: 35px;
+  letter-spacing: 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -394,8 +394,10 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-d
 }
 main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-day {
   padding: 0 10px;
+  font-family: "Akira";
 }
 main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+  font-family: "Akira";
   background-color: #ffffff;
   color: #000000;
   font-size: 20px;
@@ -413,10 +415,6 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
 main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-country {
   font-family: "Akira";
   font-size: 30px;
-}
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-info-plus {
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
 }
 main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
   background-color: #FD72AB;
@@ -661,7 +659,7 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
     padding: 35px;
   }
   main .fotos-galeria .title-fotos h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   main .fotos-galeria .galeria {
     padding: 20px 0;
@@ -670,7 +668,7 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
     width: 100%;
   }
   main .videos .title-videos h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   main .videos .galeria-videos .grilla-videos {
     grid-template-columns: 1fr;
@@ -696,21 +694,34 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
     font-size: 30px;
     text-align: center;
   }
+  main .tour .contenedor-acordeon .acordeon label {
+    font-size: 23px;
+  }
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon {
+    margin: 0 15px;
+  }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
-    flex-direction: column;
-    align-items: normal;
+    flex-direction: row;
+    align-items: flex-start;
   }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
-    width: 100%;
-    text-align: center;
+    font-size: 18px;
+    margin-right: 20px;
+    line-height: 3.5em;
   }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 20px;
+    font-size: 15px;
+  }
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-country {
+    font-size: 18px;
   }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button {
     margin-top: 10px;
+  }
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+    font-size: 15px;
   }
   /************ CIERRE TOUR ************/
   /************ CONTACTO ************/

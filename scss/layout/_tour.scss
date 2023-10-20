@@ -58,16 +58,18 @@ main{
                         align-items: center;
                         .show-date {
                             background-color: $color-primario;
-                            font-family: "Akira";
                             font-size: 35px;
+                            letter-spacing: 1px;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             margin-right: 40px;
                             .show-date-day {
                                 padding: 0 10px;
+                                font-family: "Akira";
                             }
                             .show-date-year {
+                                font-family: "Akira";
                                 background-color: $color-texto;
                                 color: $color-secundario;
                                 font-size: 20px;
@@ -85,10 +87,6 @@ main{
                             .show-country {
                                 font-family: "Akira";
                                 font-size: 30px;
-                            }
-                            .show-info-plus {
-                                font-family: 'Montserrat', sans-serif;
-                                font-size: 10px;
                             }
                             .show-button button {
                                 background-color:$color-primario;
