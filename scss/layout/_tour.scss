@@ -44,7 +44,7 @@ main{
                     display: none;
                 }
                 .btn-acordeon:checked~.contenido-acordeon {
-                    max-height: 2000px;
+                    max-height: fit-content;
                     padding: 15px 0px;
                 }
                 .contenido-acordeon {

@@ -138,21 +138,37 @@
     /************ CIERRE MULTIMEDIA ************/
 
     /************ TOUR ************/
-    .tour{
-        .imagen-tour img{
-            padding: 65px 0 0;
-        }
-        .contenedor-acordeon{
-            .title-tour {
-                margin-bottom: 0px;
-                h1 {
-                    font-size: 35px;
-                    text-align: center;
-                }
+    main{
+        background-color: $color-secundario;
+        .tour {
+            width: 100%;
+            .imagen-tour img {
+                    padding: 65px 0 0;
             }
-            .acordeon label {
-                font-size: 20px;
-                padding: 50px 40px 20px 20px;
+            .contenedor-acordeon {
+                .title-tour{
+                    margin-bottom: 35px;
+                    h1{
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                }
+                .acordeon .contenido-acordeon .show-item{
+                    flex-direction: column;
+                    align-items: normal;
+                    .show-date{
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .show-info{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-top: 20px;
+                        .show-button{
+                            margin-top: 10px;
+                        }
+                    }
+                }
             }
         }
     }
