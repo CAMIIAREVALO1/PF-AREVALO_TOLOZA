@@ -161,11 +161,14 @@
                         margin: 0 15px;
                         .show-item{
                             flex-direction: row;
-                            align-items: flex-start;
+                            align-items: normal;
                             .show-date{
                                 font-size: 18px;
                                 margin-right: 20px;
                                 line-height: 3.5em;
+                                .show-date-year{
+                                    font-size: 18px;
+                                }
                             }
                             .show-info{
                                 flex-direction: column;
@@ -175,12 +178,12 @@
                                     .show-country{
                                         font-size: 18px;
                                     }
-                                    .show-button{
+                                .show-button{
                                         margin-top: 10px;
                                         button{
                                             font-size: 15px;
                                         }
-                                    }
+                                }
                                 }
                             }
                         }

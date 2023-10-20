@@ -412,7 +412,7 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-country {
+main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
   font-family: "Akira";
   font-size: 30px;
 }
@@ -702,12 +702,15 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: normal;
   }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
     font-size: 18px;
     margin-right: 20px;
     line-height: 3.5em;
+  }
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+    font-size: 18px;
   }
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
     flex-direction: column;
