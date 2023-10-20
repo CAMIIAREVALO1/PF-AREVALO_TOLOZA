@@ -714,13 +714,13 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
     align-items: flex-start;
     font-size: 15px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-country {
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info show-title .show-country {
     font-size: 18px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button {
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info show-title .show-button {
     margin-top: 10px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info show-title .show-button button {
     font-size: 15px;
   }
   /************ CIERRE TOUR ************/
