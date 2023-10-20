@@ -34,7 +34,7 @@ main{
                 flex-direction: column;
                 padding: 100px 100px 10px;
                 .año {
-                    font-family: 'Montserrat Alternates', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-weight: bold;
                     color: $color-texto;
                     font-size: 20px;
@@ -61,7 +61,7 @@ main{
                     .youtube {
                         padding: 10px 0 0;
                         a {
-                            font-family: 'Montserrat Alternates', sans-serif;
+                            font-family: 'Montserrat', sans-serif;
                             font-size: 15px;
                             color: $color-texto;
                             text-decoration: underline;
@@ -75,7 +75,7 @@ main{
                     padding: 5px 40px;
                     justify-content: space-between;
                     ul li {
-                        font-family: 'Montserrat Alternates', sans-serif;
+                        font-family: 'Montserrat', sans-serif;
                         color: $color-texto;
                         display: list-item;
                         list-style-type: none;
