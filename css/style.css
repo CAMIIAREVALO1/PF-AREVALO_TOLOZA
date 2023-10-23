@@ -12,24 +12,38 @@
 }
 
 /********************************** HEADER **********************************/
-.navbar {
+header a.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff url("../../IMG/up-arrow.png") no-repeat center;
+  background-size: 65%;
+}
+header a.back-to-top:hover {
+  background-color: #FD72AB;
+}
+header .navbar {
   background-color: #000000;
   z-index: 1;
   position: fixed;
   width: 100%;
 }
-.navbar img {
+header .navbar img {
   height: 50px;
 }
-.navbar .navbar-collapse {
+header .navbar .navbar-collapse {
   justify-content: flex-end;
 }
-.navbar .navbar-collapse .nav-link {
+header .navbar .navbar-collapse .nav-link {
   color: #ffffff;
   font-family: "akira";
   margin-right: 10px;
 }
-.navbar .navbar-collapse .nav-link:hover {
+header .navbar .navbar-collapse .nav-link:hover {
   color: #FD72AB;
 }
 
@@ -174,7 +188,7 @@ main .discografia .album .album-container .portada-album .youtube a {
   text-decoration: underline;
 }
 main .discografia .album .album-container .lista-album {
-  width: 820px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   padding: 5px 40px;
@@ -558,22 +572,28 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
 /******************************************************************************************************MOBILE******************************************************************************************************/
 @media (min-width: 328px) and (max-width: 480px) {
   /************ HEADER ************/
-  .navbar {
+  header a.back-to-top:hover {
+    background-color: #ffffff;
+  }
+  header .navbar {
     background-color: #FD72AB;
   }
-  .navbar img {
+  header .navbar img {
     height: 40px;
   }
-  .navbar .navbar-toggler {
+  header .navbar .navbar-toggler {
     height: 40px;
   }
-  .navbar .navbar-toggler .navbar-toggler-icon {
+  header .navbar .navbar-toggler .navbar-toggler-icon {
     height: 20px;
   }
-  .navbar .nav-link {
-    color: white;
+  header .navbar .nav-link {
+    color: #ffffff;
     font-family: "akira";
     margin-right: 10px;
+  }
+  header .navbar .nav-link:hover {
+    color: #ffffff;
   }
   /************ CIERRE HEADER ************/
   /************ INDEX ************/
@@ -605,6 +625,9 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   }
   /************ CIERRE INDEX ************/
   /************ DISCOGRAFIA ************/
+  main {
+    /* SENCILLOS Y EPS*/
+  }
   main .discografia {
     padding: 0 0 50px;
   }
@@ -634,12 +657,11 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   }
   main .discografia .album .album-container .portada-album img {
     width: 290px;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     border-radius: 10px;
   }
-  /* SENCILLOS Y EPS*/
   main .section-eps .title-eps {
-    background-color: black;
+    background-color: #000000;
   }
   main .section-eps .title-eps h2 {
     margin: 20px 70px;
@@ -720,10 +742,10 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
     font-size: 18px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-button {
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button {
     margin-top: 10px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-button button {
+  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
     font-size: 15px;
   }
   /************ CIERRE TOUR ************/
