@@ -20,7 +20,7 @@ header a.back-to-top {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #ffffff url("../../IMG/up-arrow.png") no-repeat center;
+  background: #ffffff url(../IMG/up-arrow.webp) no-repeat center;
   background-size: 65%;
 }
 header a.back-to-top:hover {
@@ -49,10 +49,10 @@ header .navbar .navbar-collapse .nav-link:hover {
 
 /********************************** CIERRE HEADER **********************************/
 /********************************** INDEX **********************************/
-main {
+#index {
   background-color: #FD72AB;
 }
-main .section-index {
+#index .section-index {
   background-color: #000000;
   width: 100%;
   display: flex;
@@ -60,49 +60,60 @@ main .section-index {
   justify-content: center;
   align-items: center;
 }
-main .section-index img {
+#index .section-index img {
   width: 100%;
   padding: 50px 0 0;
 }
-main .section-index .texto-index {
+#index .section-index .texto-index {
   width: 100%;
-  background-color: black;
+  background-color: #000000;
   margin: 30px;
 }
-main .section-index .texto-index p {
+#index .section-index .texto-index p {
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
   padding: 20px 80px 30px;
 }
-main .section-integrantes {
+#index .section-integrantes {
   background-color: #FD72AB;
   width: 100%;
 }
-main .section-integrantes .titulo-integrantes img {
+#index .section-integrantes .titulo-integrantes {
   width: 100%;
+  height: 200px;
+  background-image: url(../IMG/titulo-integrantes.webp);
+  background-size: cover;
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
-main .section-integrantes .integrantes-contenedor {
+#index .section-integrantes .titulo-integrantes h1 {
+  font-family: "akira";
+  font-size: 70px;
+  color: #ffffff;
+  text-shadow: 5px 5px 20px #000000;
+}
+#index .section-integrantes .integrantes-contenedor {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-main .section-integrantes .integrantes-contenedor .integrantes {
+#index .section-integrantes .integrantes-contenedor .integrantes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .section-integrantes .integrantes-contenedor .integrantes img {
+#index .section-integrantes .integrantes-contenedor .integrantes img {
   width: 304px;
   height: 408px;
 }
-main .section-integrantes .integrantes-contenedor .integrantes p {
+#index .section-integrantes .integrantes-contenedor .integrantes p {
   font-family: "akira";
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
   padding: 20px 0;
@@ -111,20 +122,20 @@ main .section-integrantes .integrantes-contenedor .integrantes p {
 
 /********************************** CIERRE INDEX **********************************/
 /********************************** DISCOGRAFIA **********************************/
-main {
+#discografia {
   background-color: #000000;
   /*DISCOGRAFIA*/
   /*CIERRE DISCOGRAFIA*/
   /*SENCILLOS Y EPS*/
   /*CIERRE SENCILLOS Y EPS*/
 }
-main .discografia {
+#discografia .discografia {
   width: 100%;
   background-color: #FD72AB;
   padding: 0 0 100px;
   /* SECCION ALBUM */
 }
-main .discografia .title-container {
+#discografia .discografia .title-container {
   width: 100%;
   height: 710px;
   background-image: url(../IMG/usted-senalemelo-estadio-obras.webp);
@@ -133,113 +144,115 @@ main .discografia .title-container {
   display: flex;
   justify-content: center;
 }
-main .discografia .title-container h1 {
+#discografia .discografia .title-container h1 {
   font-family: "akira";
   font-size: 70px;
-  color: white;
+  color: #ffffff;
   text-shadow: 5px 5px 15px #000000;
   display: flex;
   align-items: flex-end;
   margin-bottom: 30px;
 }
-main .discografia .album {
+#discografia .discografia .album {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-main .discografia .album .titulo-album {
+#discografia .discografia .album .titulo-album {
   display: flex;
   flex-direction: column;
   padding: 100px 100px 10px;
 }
-main .discografia .album .titulo-album .año {
+#discografia .discografia .album .titulo-album .año {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #ffffff;
   font-size: 20px;
 }
-main .discografia .album .titulo-album h4 {
+#discografia .discografia .album .titulo-album h4 {
   font-family: "akira";
   color: #ffffff;
   font-size: 30px;
 }
-main .discografia .album .album-container {
+#discografia .discografia .album .album-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   justify-items: center;
   padding: 0 100px;
 }
-main .discografia .album .album-container .portada-album {
+#discografia .discografia .album .album-container .portada-album {
   display: flex;
   flex-direction: column;
 }
-main .discografia .album .album-container .portada-album img {
+#discografia .discografia .album .album-container .portada-album img {
   width: 500px;
   border: 2px solid #ffffff;
   border-radius: 10px;
 }
-main .discografia .album .album-container .portada-album .youtube {
+#discografia .discografia .album .album-container .portada-album .youtube {
   padding: 10px 0 0;
 }
-main .discografia .album .album-container .portada-album .youtube a {
+#discografia .discografia .album .album-container .portada-album .youtube a {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #ffffff;
   text-decoration: underline;
 }
-main .discografia .album .album-container .lista-album {
+#discografia .discografia .album .album-container .lista-album {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding: 5px 40px;
+  padding: 5px 0 5px 40px;
   justify-content: space-between;
 }
-main .discografia .album .album-container .lista-album ul li {
+#discografia .discografia .album .album-container .lista-album ul li {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   display: list-item;
   list-style-type: none;
   padding: 10px;
 }
-main .section-eps {
+#discografia .section-eps {
   width: 100%;
-  padding: 0 0 25px;
+  padding: 30px 0 25px;
 }
-main .section-eps .title-eps {
+#discografia .section-eps .title-eps {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main .section-eps .title-eps h2 {
+#discografia .section-eps .title-eps h2 {
   margin: 50px;
   font-family: "akira";
-  font-size: 30px;
+  font-size: 50px;
   color: #ffffff;
+  text-shadow: 5px 5px 15px #000000;
 }
-main .section-eps .grilla-eps {
+#discografia .section-eps .grilla-eps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 400px 400px;
   padding: 20px 100px;
 }
-main .section-eps .grilla-eps .lista-eps {
+#discografia .section-eps .grilla-eps .lista-eps {
   justify-self: center;
   align-self: center;
 }
-main .section-eps .grilla-eps .lista-eps iframe {
+#discografia .section-eps .grilla-eps .lista-eps iframe {
   height: 355px;
 }
 
 /********************************** CIERRE DISCOGRAFIA **********************************/
 /********************************** MULTIMEDIA **********************************/
-main {
-  background-color: #FD72AB;
+#multimedia {
+  background-color: #000000;
   /* SECCION GALERIA FOTOS */
   /* CIERRE SECCION GALERIA FOTOS */
   /* SECCION GALERIA VIDEOS */
   /* CIERRE SECCION GALERIA VIDEOS */
 }
-main .fotos-galeria {
+#multimedia .fotos-galeria {
   width: 100%;
   padding: 100px 0 0;
   display: flex;
@@ -247,83 +260,83 @@ main .fotos-galeria {
   justify-content: center;
   align-items: center;
 }
-main .fotos-galeria .title-fotos h1 {
+#multimedia .fotos-galeria .title-fotos h1 {
   font-family: "akira";
   font-size: 70px;
-  color: white;
+  color: #ffffff;
   padding: 50px 0 0;
 }
-main .fotos-galeria .galeria {
+#multimedia .fotos-galeria .galeria {
   display: flex;
   justify-content: center;
   align-content: center;
   padding: 50px 0 100px 0;
 }
-main .fotos-galeria .galeria .grilla-fotos {
+#multimedia .fotos-galeria .galeria .grilla-fotos {
   display: grid;
   width: 80%;
   grid-template-areas: "ocho ocho ocho ocho ocho tres tres tres" "ocho ocho ocho ocho ocho once once once" "cuatro cuatro cuatro cinco cinco seis seis seis" "siete siete siete siete uno uno uno uno" "nueve nueve nueve nueve dos dos dos dos" "diez diez diez diez dos dos dos dos";
   gap: 10px;
 }
-main .fotos-galeria .galeria .grilla-fotos img {
+#multimedia .fotos-galeria .galeria .grilla-fotos img {
   width: 100%;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(1) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(1) {
   grid-area: uno;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(2) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(2) {
   grid-area: dos;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(3) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(3) {
   grid-area: tres;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(4) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(4) {
   grid-area: cuatro;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(5) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(5) {
   grid-area: cinco;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(6) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(6) {
   grid-area: seis;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(7) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(7) {
   grid-area: siete;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(8) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(8) {
   grid-area: ocho;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(9) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(9) {
   grid-area: nueve;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(10) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(10) {
   grid-area: diez;
 }
-main .fotos-galeria .galeria .grilla-fotos img:nth-child(11) {
+#multimedia .fotos-galeria .galeria .grilla-fotos img:nth-child(11) {
   grid-area: once;
 }
-main .videos {
+#multimedia .videos {
   width: 100%;
-  background-color: #000000;
+  background-color: #FD72AB;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .videos .title-videos {
-  background-color: #000000;
+#multimedia .videos .title-videos {
   padding: 100px 20px 20px 20px;
 }
-main .videos .title-videos h1 {
+#multimedia .videos .title-videos h2 {
   font-family: "akira";
   font-size: 70px;
-  color: white;
+  color: #ffffff;
+  text-shadow: 5px 5px 15px #000000;
 }
-main .videos .galeria-videos {
+#multimedia .videos .galeria-videos {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-main .videos .galeria-videos .grilla-videos {
+#multimedia .videos .galeria-videos .grilla-videos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -333,71 +346,72 @@ main .videos .galeria-videos .grilla-videos {
 
 /********************************** CIERRE MULTIMEDIA **********************************/
 /********************************** TOUR **********************************/
-main {
+#tour {
   background-color: #000000;
 }
-main .tour {
+#tour .tour {
   width: 100%;
 }
-main .tour .imagen-tour {
+#tour .tour .imagen-tour {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .tour .imagen-tour img {
+#tour .tour .imagen-tour img {
   padding: 10px 0 0;
   width: 100%;
 }
-main .tour .contenedor-acordeon {
+#tour .tour .contenedor-acordeon {
   width: 100%;
   background-color: #000000;
   color: #ffffff;
 }
-main .tour .contenedor-acordeon .title-tour {
+#tour .tour .contenedor-acordeon .title-tour {
   background-color: #FD72AB;
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
-main .tour .contenedor-acordeon .title-tour h1 {
+#tour .tour .contenedor-acordeon .title-tour h1 {
   font-family: "akira";
   font-size: 70px;
+  text-shadow: 5px 5px 15px #000000;
   margin: 10px 20px;
 }
-main .tour .contenedor-acordeon .acordeon {
+#tour .tour .contenedor-acordeon .acordeon {
   display: flex;
   flex-direction: column;
 }
-main .tour .contenedor-acordeon .acordeon label {
+#tour .tour .contenedor-acordeon .acordeon label {
   font-family: "akira";
   font-size: 30px;
   cursor: pointer;
   padding: 20px 40px 50px 40px;
   transition: all 300ms ease;
 }
-main .tour .contenedor-acordeon .acordeon label:hover {
+#tour .tour .contenedor-acordeon .acordeon label:hover {
   color: #FD72AB;
 }
-main .tour .contenedor-acordeon .acordeon .btn-acordeon {
+#tour .tour .contenedor-acordeon .acordeon .btn-acordeon {
   display: none;
 }
-main .tour .contenedor-acordeon .acordeon .btn-acordeon:checked ~ .contenido-acordeon {
+#tour .tour .contenedor-acordeon .acordeon .btn-acordeon:checked ~ .contenido-acordeon {
   max-height: -moz-fit-content;
   max-height: fit-content;
   padding: 15px 0px;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon {
   margin: 0px 40px;
   max-height: 0;
   overflow: hidden;
   transition: all 300ms ease;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
   display: flex;
   margin-bottom: 50px;
   align-items: center;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
   background-color: #FD72AB;
   font-size: 35px;
   letter-spacing: 1px;
@@ -406,11 +420,11 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-d
   justify-content: center;
   margin-right: 40px;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-day {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-day {
   padding: 0 10px;
   font-family: "Akira";
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
   font-family: "Akira";
   background-color: #ffffff;
   color: #000000;
@@ -418,7 +432,7 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-d
   display: flex;
   justify-content: center;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
   width: 100%;
   display: flex;
   align-items: center;
@@ -426,11 +440,11 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
   font-family: "Akira";
   font-size: 30px;
 }
-main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
   background-color: #FD72AB;
   border: 2px #FD72AB;
   border-radius: 5px;
@@ -458,9 +472,9 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   background-color: rgba(220, 220, 220, 0.7);
   box-shadow: 10px 10px 15px #000000 0, 0, 0, 0.7;
 }
-.contactanos .form-container .form-input-container .form-titulo h2 {
+.contactanos .form-container .form-input-container .form-titulo h1 {
   font-family: "akira";
-  font-size: 70px;
+  font-size: 50px;
   color: #ffffff;
   text-shadow: 5px 5px 15px #000000;
   text-align: center;
@@ -597,102 +611,106 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   }
   /************ CIERRE HEADER ************/
   /************ INDEX ************/
-  main .imagen-index img {
+  #index .imagen-index img {
     padding: 58px 0 0;
   }
-  main .section-index .texto-index {
+  #index .section-index .texto-index {
     margin: 10px;
   }
-  main .section-index .texto-index p {
+  #index .section-index .texto-index p {
     font-size: 15px;
     text-align: center;
     padding: 15px 20px;
   }
-  main .titulo-integrantes img {
-    margin-bottom: 20px;
+  #index .section-integrantes .titulo-integrantes {
+    height: 150px;
   }
-  main .section-integrantes .integrantes-contenedor {
+  #index .section-integrantes .titulo-integrantes h1 {
+    font-size: 30px;
+  }
+  #index .section-integrantes .integrantes-contenedor {
     flex-direction: column;
     justify-content: center;
   }
-  main .section-integrantes .integrantes-contenedor img {
+  #index .section-integrantes .integrantes-contenedor img {
     width: 200px;
     height: 268px;
   }
-  main .section-integrantes .integrantes-contenedor img p {
+  #index .section-integrantes .integrantes-contenedor img p {
     font-size: 14px;
     margin-bottom: 15px;
   }
   /************ CIERRE INDEX ************/
   /************ DISCOGRAFIA ************/
-  main {
+  #discografia {
     /* SENCILLOS Y EPS*/
   }
-  main .discografia {
+  #discografia .discografia {
     padding: 0 0 50px;
   }
-  main .discografia .title-container {
+  #discografia .discografia .title-container {
     height: 625px;
   }
-  main .discografia .title-container h1 {
+  #discografia .discografia .title-container h1 {
     font-size: 30px;
   }
-  main .discografia .album .titulo-album {
+  #discografia .discografia .album .titulo-album {
     padding: 100px 15px 10px;
   }
-  main .discografia .album .album-container {
+  #discografia .discografia .album .album-container {
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
     padding: 0 15px;
     justify-items: flex-start;
   }
-  main .discografia .album .album-container .lista-album {
+  #discografia .discografia .album .album-container .lista-album {
     width: 100%;
     display: flex;
     flex-direction: row;
     padding: 30px 0;
   }
-  main .discografia .album .album-container .lista-album .lista-cancion-album ul {
+  #discografia .discografia .album .album-container .lista-album .lista-cancion-album ul {
     padding-left: 0;
   }
-  main .discografia .album .album-container .portada-album img {
+  #discografia .discografia .album .album-container .portada-album img {
     width: 290px;
     border: 2px solid #ffffff;
     border-radius: 10px;
   }
-  main .section-eps .title-eps {
+  #discografia .section-eps .title-eps {
     background-color: #000000;
   }
-  main .section-eps .title-eps h2 {
+  #discografia .section-eps .title-eps h2 {
     margin: 20px 70px;
     text-align: center;
+    font-size: 30px;
   }
-  main .section-eps .grilla-eps {
+  #discografia .section-eps .grilla-eps {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 100px);
     padding: 50px 15px;
   }
-  main .section-eps .grilla-eps .lista-eps iframe {
+  #discografia .section-eps .grilla-eps .lista-eps iframe {
     height: 90px;
   }
   /************ CIERRE DISCOGRAFIA ************/
   /************ MULTIMEDIA ************/
-  main .fotos-galeria {
+  #multimedia .fotos-galeria {
     padding: 35px;
   }
-  main .fotos-galeria .title-fotos h1 {
+  #multimedia .fotos-galeria .title-fotos h1 {
     font-size: 30px;
   }
-  main .fotos-galeria .galeria {
+  #multimedia .fotos-galeria .galeria {
     padding: 20px 0;
   }
-  main .fotos-galeria .galeria .grilla-fotos {
+  #multimedia .fotos-galeria .galeria .grilla-fotos {
     width: 100%;
   }
-  main .videos .title-videos h1 {
+  #multimedia .videos .title-videos h2 {
     font-size: 30px;
   }
-  main .videos .galeria-videos .grilla-videos {
+  #multimedia .videos .galeria-videos .grilla-videos {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     padding: 20px 0px 50px;
@@ -700,52 +718,52 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   }
   /************ CIERRE MULTIMEDIA ************/
   /************ TOUR ************/
-  main {
+  #tour {
     background-color: #000000;
   }
-  main .tour {
+  #tour .tour {
     width: 100%;
   }
-  main .tour .imagen-tour img {
+  #tour .tour .imagen-tour img {
     padding: 65px 0 0;
   }
-  main .tour .contenedor-acordeon .title-tour {
+  #tour .tour .contenedor-acordeon .title-tour {
     margin-bottom: 35px;
   }
-  main .tour .contenedor-acordeon .title-tour h1 {
+  #tour .tour .contenedor-acordeon .title-tour h1 {
     font-size: 30px;
     text-align: center;
   }
-  main .tour .contenedor-acordeon .acordeon label {
+  #tour .tour .contenedor-acordeon .acordeon label {
     font-size: 23px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon {
     margin: 0 15px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
     flex-direction: row;
     align-items: normal;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
     font-size: 18px;
     margin-right: 20px;
     line-height: 3.5em;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
     font-size: 18px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
     flex-direction: column;
     align-items: flex-start;
     font-size: 15px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
     font-size: 18px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button {
     margin-top: 10px;
   }
-  main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
     font-size: 15px;
   }
   /************ CIERRE TOUR ************/
@@ -762,7 +780,7 @@ main .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-i
   .contactanos .form-container .row .form-input-container {
     padding: 0 10px;
   }
-  .contactanos .form-container .row .form-input-container .form-titulo h2 {
+  .contactanos .form-container .row .form-input-container .form-titulo h1 {
     font-size: 30px;
   }
   /************ CIERRE CONTACTO ************/

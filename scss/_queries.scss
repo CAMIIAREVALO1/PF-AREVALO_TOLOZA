@@ -32,7 +32,7 @@
     /************ CIERRE HEADER ************/
 
     /************ INDEX ************/
-    main{
+    #index{
         .imagen-index img{
             padding: 58px 0 0;
         }
@@ -44,10 +44,13 @@
                 padding: 15px 20px;
             }
         }
-        .titulo-integrantes img {
-            margin-bottom: 20px;
-        }
         .section-integrantes{
+            .titulo-integrantes{
+                height: 150px;
+                h1{
+                    font-size: 30px;
+                }
+            }
             .integrantes-contenedor {
                 flex-direction: column;
                 justify-content: center;
@@ -65,7 +68,7 @@
     /************ CIERRE INDEX ************/
 
     /************ DISCOGRAFIA ************/
-    main{
+    #discografia{
         .discografia {
             padding: 0 0 50px;
             .title-container{
@@ -107,6 +110,7 @@
                 h2 {
                     margin: 20px 70px;
                     text-align: center;
+                    font-size: 30px;
                 }
             }
             .grilla-eps {
@@ -122,7 +126,7 @@
     /************ CIERRE DISCOGRAFIA ************/
 
     /************ MULTIMEDIA ************/
-    main{
+    #multimedia{
         .fotos-galeria{
             padding: 35px;
             .title-fotos h1{
@@ -136,7 +140,7 @@
             }
         }
         .videos{
-            .title-videos h1{
+            .title-videos h2{
                 font-size: 30px;
             }
             .galeria-videos .grilla-videos {
@@ -150,7 +154,7 @@
     /************ CIERRE MULTIMEDIA ************/
 
     /************ TOUR ************/
-    main{
+    #tour{
         background-color: $color-secundario;
         .tour {
             width: 100%;
@@ -215,7 +219,7 @@
                 margin: 0;
                 .form-input-container{
                     padding: 0 10px;
-                    .form-titulo h2{
+                    .form-titulo h1{
                         font-size: 30px;
                     }
                 }

@@ -1,5 +1,5 @@
 /********************************** TOUR **********************************/
-main{
+#tour{
     background-color: $color-secundario;
     .tour {
         width: 100%;
@@ -24,6 +24,7 @@ main{
                 h1 {
                     font-family: "akira";
                     font-size: 70px;
+                    text-shadow: 5px 5px 15px $color-secundario;
                     margin: 10px 20px;
                 }
             }
