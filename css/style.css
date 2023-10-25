@@ -380,7 +380,7 @@ header .navbar .navbar-collapse .nav-link:hover {
 }
 #tour .tour .contenedor-acordeon .accordion {
   --bs-accordion-btn-bg: #000000;
-  --bs-accordion-active-bg: none;
+  --bs-accordion-active-bg: #000000;
   --bs-accordion-btn-focus-box-shadow: none;
   --bs-accordion-bg: #000000;
 }
@@ -388,12 +388,12 @@ header .navbar .navbar-collapse .nav-link:hover {
   display: flex;
   flex-direction: column;
 }
-#tour .tour .contenedor-acordeon .accordion .accordion-item h2 button {
+#tour .tour .contenedor-acordeon .accordion .accordion-item h2 .accordion-button {
   font-family: "akira";
   font-size: 30px;
   color: #ffffff;
 }
-#tour .tour .contenedor-acordeon .accordion .accordion-item h2 button:hover {
+#tour .tour .contenedor-acordeon .accordion .accordion-item h2 .accordion-button:hover {
   color: #FD72AB;
 }
 #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body {

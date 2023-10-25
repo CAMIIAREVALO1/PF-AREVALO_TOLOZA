@@ -30,13 +30,13 @@
             }
             .accordion {
                 --bs-accordion-btn-bg: #{$color-secundario};
-                --bs-accordion-active-bg: none;
+                --bs-accordion-active-bg: #{$color-secundario};
                 --bs-accordion-btn-focus-box-shadow: none;
                 --bs-accordion-bg: #{$color-secundario};
                 .accordion-item {
                     display: flex;
                     flex-direction: column;
-                    h2 button {
+                    h2 .accordion-button {
                         font-family: "akira";
                         font-size: 30px;
                         color: $color-texto;
