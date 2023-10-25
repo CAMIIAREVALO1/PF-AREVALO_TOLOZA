@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Toda la gira de Usted Señalemelo, encontra tus entradas acá">
-    <meta name="keywords"  content="BANDA ARGENTINA, TRIPOLAR, SHOWS, INDIE, ROCK, ENTRADAS">
+    <meta name="keywords" content="BANDA ARGENTINA, TRIPOLAR, SHOWS, INDIE, ROCK, ENTRADAS">
 
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,6 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!--iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
@@ -19,6 +22,7 @@
     <title>Tour | Usted señalemelo</title>
     <link rel="shortcut icon" href="../IMG/Favicon.webp">
 </head>
+
 <body>
     <header id="header">
         <a href="#header" class="back-to-top page-scroll" style="display: inline;"></a>
@@ -61,668 +65,697 @@
                 <div class="title-tour">
                     <h1>PROXIMOS SHOWS</h1>
                 </div>
-                <!-- DESPLEGABLE 1 -->
-                <div class="acordeon">
-                    <input type="radio" name="acordeon" id="btn-acordeon-1" class="btn-acordeon">
-                    <label for="btn-acordeon-1">LATAM   ⯆</label>
-                    <div class="contenido-acordeon">
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">18.02</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Cordoba, AR</div>
-                                    <div class="show-place">Cosquin Rock</div>
+                <div class="container accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> LATAM
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">18.02</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Cordoba, AR</div>
+                                            <div class="show-place">Cosquin Rock</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">17.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Santiago, CL</div>
+                                            <div class="show-place">Lollapalooza</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">18.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Buenos Aires, AR</div>
+                                            <div class="show-place">Lollapalooza</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">21.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Asuncion, PY</div>
+                                            <div class="show-place">Asunciónico</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">23.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Lima, PE</div>
+                                            <div class="show-place">CCB Barranco</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">25.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Quito, EC</div>
+                                            <div class="show-place">Soundgarden</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">28.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Bogota, CO</div>
+                                            <div class="show-place">The Bonfire</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">29.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Medellin, CO</div>
+                                            <div class="show-place">Teatro Matacandelas</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">31.03</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Monterrey, MX</div>
+                                            <div class="show-place">Tecate Pa'l Norte</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">01.04</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Ciudad de Mexico, MX</div>
+                                            <div class="show-place">AXE Ceremonia</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">21.04</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Montevideo, UY</div>
+                                            <div class="show-place">Consquin Rock</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button"
+                                                href="#">comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">17.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Santiago, CL</div>
-                                    <div class="show-place">Lollapalooza</div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Estados Unidos
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">13.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">New York, NY</div>
+                                            <div class="show-place">Lamc Indie Showcase, DROM</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">13.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">New York, NY</div>
+                                            <div class="show-place">Acoustic Showcase, SOBs</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">15.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">New York, NY</div>
+                                            <div class="show-place">Racket</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">16.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Pomona, CA</div>
+                                            <div class="show-place">The Glass House</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">17.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Los Angeles, CA</div>
+                                            <div class="show-place">El Cid</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">21.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Seattle, WA</div>
+                                            <div class="show-place">El Sonido Live</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">29.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Kansas City, MO</div>
+                                            <div class="show-place">Encore</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">30.07</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">ST. Louis, MO</div>
+                                            <div class="show-place">Off Broadway</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">01.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Atlanta, GA</div>
+                                            <div class="show-place">Aisle 5</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">02.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Indianapolis, IN</div>
+                                            <div class="show-place">Deluxe</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">04.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Chicago, IL</div>
+                                            <div class="show-place">Lollapalooza After Show Metro</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">05.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Chicago, IL</div>
+                                            <div class="show-place">Lollapalooza</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">18.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Buenos Aires, AR</div>
-                                    <div class="show-place">Lollapalooza</div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Sudamerica
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">10.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Montevideo, UY</div>
+                                            <div class="show-place">Sala del Museo del Carnaval</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">12.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Santiago, CL</div>
+                                            <div class="show-place">Blondie</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">18.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Mendoza, AR</div>
+                                            <div class="show-place">Auditorio Angel Bustelo</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">25.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">San Luis, AR</div>
+                                            <div class="show-place">Comuna</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">26.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Cordoba, AR</div>
+                                            <div class="show-place">Plaza de la Música</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">31.08</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">La Plata, AR</div>
+                                            <div class="show-place">Teatro Opera</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">01.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Haedo, AR</div>
+                                            <div class="show-place">Auditorio Oeste</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">08.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Rosario, AR</div>
+                                            <div class="show-place">Sala de las Artes</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">09.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Santa Fe, AR</div>
+                                            <div class="show-place">Tribus</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">14.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Neuquen, AR</div>
+                                            <div class="show-place">Mood Live</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">16.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Bahia Blanca, AR</div>
+                                            <div class="show-place">Club Estudiantes</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">22.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Mar del Plata, AR</div>
+                                            <div class="show-place">Gap</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">30.09</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Asuncion, PY</div>
+                                            <div class="show-place">Reciclarte</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">25.10</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Buenos Aires, AR</div>
+                                            <div class="show-place">Luna Park (Experiencia 360°)</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">21.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Asuncion, PY</div>
-                                    <div class="show-place">Asunciónico</div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Mexico
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">07.10</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Tijuana, MX</div>
+                                            <div class="show-place">Tecate Peninsula</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">10.10</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Queretaro, MX</div>
+                                            <div class="show-place">Sala Arpa</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">23.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Lima, PE</div>
-                                    <div class="show-place">CCB Barranco</div>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">11.10</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Ciudad de Mexico, MX</div>
+                                            <div class="show-place">Lunario del Auditorio Nacional</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">12.10</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Monterrey, MX</div>
+                                            <div class="show-place">Foro Tims</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">25.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Quito, EC</div>
-                                    <div class="show-place">Soundgarden</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">28.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Bogota, CO</div>
-                                    <div class="show-place">The Bonfire</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">29.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Medellin, CO</div>
-                                    <div class="show-place">Teatro Matacandelas</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">31.03</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Monterrey, MX</div>
-                                    <div class="show-place">Tecate Pa'l Norte</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">01.04</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Ciudad de México, MX</div>
-                                    <div class="show-place">AXE Ceremonia</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">21.04</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Montevideo, UY</div>
-                                    <div class="show-place">Consquin Rock</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
+                                <div class="show-item">
+                                    <div class="show-date">
+                                        <div class="show-date-day">14.10</div>
+                                        <div class="show-date-year">2023</div>
+                                    </div>
+                                    <div class="show-info">
+                                        <div class="show-title">
+                                            <div class="show-country">Guadalajara, MX</div>
+                                            <div class="show-place">Tecate Coordenada</div>
+                                        </div>
+                                        <div class="show-button">
+                                            <button class="button-ticket" type="button" href="#" >comprar</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- CIERRE DESPLEGABLE 1 -->
-                <!-- DESPLEGABLE 2 -->
-                <div class="acordeon">
-                    <input type="radio" name="acordeon" id="btn-acordeon-2" class="btn-acordeon">
-                    <label for="btn-acordeon-2">Estados Unidos  ⯆</label>
-                    <div class="contenido-acordeon">
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">13.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">New York, NY</div>
-                                    <div class="show-place">Lamc Indie Showcase, DROM</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">13.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">New York, NY</div>
-                                    <div class="show-place">Acoustic Showcase, SOBs</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">15.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">New York, NY</div>
-                                    <div class="show-place">Racket</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">16.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Pomona, CA</div>
-                                    <div class="show-place">The Glass House</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">17.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Los Angeles, CA</div>
-                                    <div class="show-place">El Cid</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">21.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Seattle, WA</div>
-                                    <div class="show-place">El Sonido Live</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">29.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Kansas City, MO</div>
-                                    <div class="show-place">Encore</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">30.07</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">ST. Louis, MO</div>
-                                    <div class="show-place">Off Broadway</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">01.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Atlanta, GA</div>
-                                    <div class="show-place">Aisle 5</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">02.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Indianapolis, IN</div>
-                                    <div class="show-place">Deluxe</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">04.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Chicago, IL</div>
-                                    <div class="show-place">Lollapalooza After Show Metro</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">05.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Chicago, IL</div>
-                                    <div class="show-place">Lollapalooza</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CIERRE DESPLEGABLE 2 -->
-                <!-- DESPLEGABLE 3 -->
-                <div class="acordeon">
-                    <input type="radio" name="acordeon" id="btn-acordeon-3" class="btn-acordeon">
-                    <label for="btn-acordeon-3">Sudamerica  ⯆</label>
-                    <div class="contenido-acordeon">
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">10.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Montevideo, UY</div>
-                                    <div class="show-place">Sala del Museo del Carnaval</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">12.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Santiago, CL</div>
-                                    <div class="show-place">Blondie</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">18.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Mendoza, AR</div>
-                                    <div class="show-place">Auditorio Angel Bustelo</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">25.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">San Luis, AR</div>
-                                    <div class="show-place">Comuna</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">26.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Cordoba, AR</div>
-                                    <div class="show-place">Plaza de la Música</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">31.08</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">La Plata, AR</div>
-                                    <div class="show-place">Teatro Opera</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">01.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Haedo, AR</div>
-                                    <div class="show-place">Auditorio Oeste</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">08.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Rosario, AR</div>
-                                    <div class="show-place">Sala de las Artes</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">09.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Santa Fe, AR</div>
-                                    <div class="show-place">Tribus</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">14.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Neuquen, AR</div>
-                                    <div class="show-place">Mood Live</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">16.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Bahia Blanca, AR</div>
-                                    <div class="show-place">Club Estudiantes</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="btn btn-outline-secondary" disabled type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">22.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Mar del Plata, AR</div>
-                                    <div class="show-place">Gap</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">30.09</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Asuncion, PY</div>
-                                    <div class="show-place">Reciclarte</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">25.10</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Buenos Aires, AR</div>
-                                    <div class="show-place">Luna Park (Experiencia 360°)</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CIERRE DESPLEGABLE 3 -->
-                <!-- DESPLEGABLE 4 -->
-                <div class="acordeon">
-                    <input type="radio" name="acordeon" id="btn-acordeon-4" class="btn-acordeon">
-                    <label for="btn-acordeon-4">Mexico  ⯆</label>
-                    <div class="contenido-acordeon">
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">07.10</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Tijuana, MX</div>
-                                    <div class="show-place">Tecate Peninsula</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">10.10</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Queretaro, MX</div>
-                                    <div class="show-place">Sala Arpa</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">11.10</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Ciudad de Mexico, MX</div>
-                                    <div class="show-place">Lunario del Auditorio Nacional</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">12.10</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Monterrey, MX</div>
-                                    <div class="show-place">Foro Tims</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-item">
-                            <div class="show-date">
-                                <div class="show-date-day">14.10</div>
-                                <div class="show-date-year">2023</div>
-                            </div>
-                            <div class="show-info">
-                                <div class="show-title">
-                                    <div class="show-country">Guadalajara, MX</div>
-                                    <div class="show-place">Tecate Coordenada</div>
-                                </div>
-                                <div class="show-button">
-                                    <button class="button-ticket" type="button" href="#" >comprar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CIERRE DESPLEGABLE 4 -->
             </div>
         </section>
     </main>
@@ -757,16 +790,20 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.instagram.com/ustedsenalemelo/" target="_blank"><img src="../IMG/redes/logo-instagram.webp" alt="logo-instagran"></a>
+                                <a href="https://www.instagram.com/ustedsenalemelo/" target="_blank"><img
+                                        src="../IMG/redes/logo-instagram.webp" alt="logo-instagran"></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/udsenalemelo?t=sKpJnHrO-DosLoSfgQy1RQ&s=09" target="_blank"><img src="../IMG/redes/logo-twitter.webp" alt="logo-twitter"></a>
+                                <a href="https://twitter.com/udsenalemelo?t=sKpJnHrO-DosLoSfgQy1RQ&s=09"
+                                    target="_blank"><img src="../IMG/redes/logo-twitter.webp" alt="logo-twitter"></a>
                             </li>
                             <li>
-                                <a href="https://open.spotify.com/intl-es/artist/1a1v0OJC5GqtsLwzoqJm7j?si=50C2XTS1SLyYk-AXdqjDfg" target="_blank"><img src="../IMG/redes/logo-spotift.webp" alt="logo-spotify"></a>
+                                <a href="https://open.spotify.com/intl-es/artist/1a1v0OJC5GqtsLwzoqJm7j?si=50C2XTS1SLyYk-AXdqjDfg"
+                                    target="_blank"><img src="../IMG/redes/logo-spotift.webp" alt="logo-spotify"></a>
                             </li>
                             <li>
-                                <a href="https://www.tiktok.com/@ustedsenalemelo?_t=8fLLxL462U9&_r=1" target="_blank"><img src="../IMG/redes/logo-tiktok.webp" alt="logo-tiktok"></a>
+                                <a href="https://www.tiktok.com/@ustedsenalemelo?_t=8fLLxL462U9&_r=1"
+                                    target="_blank"><img src="../IMG/redes/logo-tiktok.webp" alt="logo-tiktok"></a>
                             </li>
                         </ul>
                     </nav>
@@ -778,4 +815,5 @@
         </section>
     </footer>
 </body>
+
 </html>

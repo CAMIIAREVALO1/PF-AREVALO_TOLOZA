@@ -378,40 +378,34 @@ header .navbar .navbar-collapse .nav-link:hover {
   text-shadow: 5px 5px 15px #000000;
   margin: 10px 20px;
 }
-#tour .tour .contenedor-acordeon .acordeon {
+#tour .tour .contenedor-acordeon .accordion {
+  --bs-accordion-btn-bg: #000000;
+  --bs-accordion-active-bg: none;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: #000000;
+}
+#tour .tour .contenedor-acordeon .accordion .accordion-item {
   display: flex;
   flex-direction: column;
 }
-#tour .tour .contenedor-acordeon .acordeon label {
+#tour .tour .contenedor-acordeon .accordion .accordion-item h2 button {
   font-family: "akira";
   font-size: 30px;
-  cursor: pointer;
-  padding: 20px 40px 50px 40px;
-  transition: all 300ms ease;
+  color: #ffffff;
 }
-#tour .tour .contenedor-acordeon .acordeon label:hover {
+#tour .tour .contenedor-acordeon .accordion .accordion-item h2 button:hover {
   color: #FD72AB;
 }
-#tour .tour .contenedor-acordeon .acordeon .btn-acordeon {
-  display: none;
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body {
+  padding: 50px 20px 15px;
 }
-#tour .tour .contenedor-acordeon .acordeon .btn-acordeon:checked ~ .contenido-acordeon {
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-  padding: 15px 0px;
-}
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon {
-  margin: 0px 40px;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 300ms ease;
-}
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item {
   display: flex;
   margin-bottom: 50px;
   align-items: center;
+  color: #ffffff;
 }
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date {
   background-color: #FD72AB;
   font-size: 35px;
   letter-spacing: 1px;
@@ -420,11 +414,11 @@ header .navbar .navbar-collapse .nav-link:hover {
   justify-content: center;
   margin-right: 40px;
 }
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-day {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date .show-date-day {
   padding: 0 10px;
   font-family: "Akira";
 }
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date .show-date-year {
   font-family: "Akira";
   background-color: #ffffff;
   color: #000000;
@@ -432,7 +426,7 @@ header .navbar .navbar-collapse .nav-link:hover {
   display: flex;
   justify-content: center;
 }
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info {
   width: 100%;
   display: flex;
   align-items: center;
@@ -440,11 +434,11 @@ header .navbar .navbar-collapse .nav-link:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
 }
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info .show-title .show-country {
   font-family: "Akira";
   font-size: 30px;
 }
-#tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+#tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info .show-button button {
   background-color: #FD72AB;
   border: 2px #FD72AB;
   border-radius: 5px;
@@ -590,6 +584,7 @@ header .navbar .navbar-collapse .nav-link:hover {
     background-color: #ffffff;
   }
   header .navbar {
+    z-index: 4;
     background-color: #FD72AB;
   }
   header .navbar img {
@@ -734,36 +729,33 @@ header .navbar .navbar-collapse .nav-link:hover {
     font-size: 30px;
     text-align: center;
   }
-  #tour .tour .contenedor-acordeon .acordeon label {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item h2 button {
     font-size: 23px;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon {
-    margin: 0 15px;
-  }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item {
     flex-direction: row;
     align-items: normal;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date {
     font-size: 18px;
     margin-right: 20px;
     line-height: 3.5em;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-date .show-date-year {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date .show-date-year {
     font-size: 18px;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info {
     flex-direction: column;
     align-items: flex-start;
     font-size: 15px;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-title .show-country {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info .show-title .show-country {
     font-size: 18px;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info .show-button {
     margin-top: 10px;
   }
-  #tour .tour .contenedor-acordeon .acordeon .contenido-acordeon .show-item .show-info .show-button button {
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info .show-button button {
     font-size: 15px;
   }
   /************ CIERRE TOUR ************/

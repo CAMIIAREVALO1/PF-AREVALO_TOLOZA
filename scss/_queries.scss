@@ -9,6 +9,7 @@
             }
         }
         .navbar{
+            z-index: 4;
             background-color: $color-primario;
             img{
                 height: 40px;
@@ -169,13 +170,12 @@
                         text-align: center;
                     }
                 }
-                .acordeon {
-                    label{
-                        font-size: 23px;
-                    }
-                    .contenido-acordeon {
-                        margin: 0 15px;
-                        .show-item{
+                .accordion{
+                    .accordion-item{
+                        h2 button{
+                            font-size: 23px;
+                        }
+                        .accordion-collapse .accordion-body .show-item{
                             flex-direction: row;
                             align-items: normal;
                             .show-date{
