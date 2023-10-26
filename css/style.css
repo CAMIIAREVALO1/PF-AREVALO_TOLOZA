@@ -696,11 +696,9 @@ header .navbar .navbar-collapse .nav-link:hover {
   #multimedia .fotos-galeria .title-fotos h1 {
     font-size: 30px;
   }
-  #multimedia .fotos-galeria .galeria {
-    padding: 20px 0;
-  }
   #multimedia .fotos-galeria .galeria .grilla-fotos {
     width: 100%;
+    grid-template-areas: "ocho ocho ocho ocho ocho ocho ocho ocho" "tres tres tres tres tres tres tres tres" "once once once once once once once once" "cinco cinco cinco cinco cinco cinco cinco cinco" "cuatro cuatro cuatro cuatro cuatro cuatro cuatro cuatro" "seis seis seis seis seis seis seis seis" "siete siete siete siete siete siete siete siete" "dos dos dos dos dos dos dos dos" "uno uno uno uno uno uno uno uno" "nueve nueve nueve nueve nueve nueve nueve nueve" "diez diez diez diez diez diez diez diez ";
   }
   #multimedia .videos .title-videos h2 {
     font-size: 30px;

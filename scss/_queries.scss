@@ -133,11 +133,20 @@
             .title-fotos h1{
                 font-size: 30px;
             }
-            .galeria{
-                padding: 20px 0;
-                .grilla-fotos{
-                    width: 100%;
-                }
+            .galeria .grilla-fotos{
+                width: 100%;
+                grid-template-areas: 
+                "ocho ocho ocho ocho ocho ocho ocho ocho"
+                "tres tres tres tres tres tres tres tres"
+                "once once once once once once once once"
+                "cinco cinco cinco cinco cinco cinco cinco cinco"
+                "cuatro cuatro cuatro cuatro cuatro cuatro cuatro cuatro"
+                "seis seis seis seis seis seis seis seis"
+                "siete siete siete siete siete siete siete siete"
+                "dos dos dos dos dos dos dos dos"
+                "uno uno uno uno uno uno uno uno"
+                "nueve nueve nueve nueve nueve nueve nueve nueve"
+                "diez diez diez diez diez diez diez diez ";
             }
         }
         .videos{
