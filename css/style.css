@@ -13,6 +13,7 @@
 
 /********************************** HEADER **********************************/
 header a.back-to-top {
+  z-index: 5;
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -281,7 +282,7 @@ header .navbar .navbar-collapse .nav-link:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 0 100px 0;
+  padding: 30px 0 100px 0;
 }
 #multimedia .fotos-galeria .galeria .grilla-fotos {
   display: grid;
@@ -545,6 +546,10 @@ header .navbar .navbar-collapse .nav-link:hover {
 }
 .footer .nav-list {
   padding: 15px 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: none;
 }
 .footer .nav-list ul {
   padding: 0;
@@ -644,15 +649,19 @@ header .navbar .navbar-collapse .nav-link:hover {
     font-size: 30px;
   }
   #index .section-integrantes .integrantes-contenedor {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /*flex-direction: column;
+    justify-content: center;*/
   }
   #index .section-integrantes .integrantes-contenedor img {
     width: 200px;
     height: 268px;
   }
   #index .section-integrantes .integrantes-contenedor img p {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 15px;
   }
   /************ CIERRE INDEX ************/
@@ -672,6 +681,9 @@ header .navbar .navbar-collapse .nav-link:hover {
   #discografia .discografia .album .titulo-album {
     padding: 100px 15px 10px;
   }
+  #discografia .discografia .album .titulo-album h4 {
+    font-size: 30px;
+  }
   #discografia .discografia .album .album-container {
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
@@ -682,6 +694,10 @@ header .navbar .navbar-collapse .nav-link:hover {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: none;
+    align-items: none;
+    /*display: flex;
+    flex-direction: row;*/
     padding: 30px 0;
   }
   #discografia .discografia .album .album-container .lista-album .lista-cancion-album ul {
@@ -711,7 +727,7 @@ header .navbar .navbar-collapse .nav-link:hover {
   /************ CIERRE DISCOGRAFIA ************/
   /************ MULTIMEDIA ************/
   #multimedia .fotos-galeria {
-    padding: 35px;
+    padding: 50px 35px 35px;
   }
   #multimedia .fotos-galeria .title-fotos h1 {
     font-size: 30px;
@@ -747,24 +763,29 @@ header .navbar .navbar-collapse .nav-link:hover {
     font-size: 30px;
     text-align: center;
   }
-  #tour .tour .contenedor-acordeon .accordion .accordion-item h2 button {
-    font-size: 23px;
+  #tour .tour .contenedor-acordeon .accordion .accordion-item h2 .accordion-button {
+    font-size: 20px;
   }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item {
+    display: flex;
     flex-direction: row;
+    justify-content: none;
+    align-items: none;
+    /*flex-direction: row;*/
     align-items: normal;
   }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date {
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 20px;
     line-height: 3.5em;
   }
-  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date .show-date-year {
-    font-size: 18px;
-  }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info {
+    display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: flex-start;
+    /*flex-direction: column;
+    align-items: flex-start;*/
     font-size: 15px;
   }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info .show-title .show-country {
@@ -791,12 +812,22 @@ header .navbar .navbar-collapse .nav-link:hover {
     padding: 0 10px;
   }
   .contactanos .form-container .row .form-input-container .form-titulo h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   /************ CIERRE CONTACTO ************/
   /************ FOOTER ************/
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .footer .nav-list {
-    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     padding: 0;
   }
   .footer .nav-list ul li {
@@ -806,8 +837,15 @@ header .navbar .navbar-collapse .nav-link:hover {
   .footer .nav-list ul li a {
     font-size: 15px;
   }
-  .footer .redes .titulo-redes h4 {
-    font-size: 12px;
+  .footer .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .redes .titulo-redes p {
+    font-size: 15px;
+    text-align: center;
   }
   .footer .redes .iconos-redes ul li img {
     height: 35px;
