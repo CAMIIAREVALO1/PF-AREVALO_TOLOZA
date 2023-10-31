@@ -14,7 +14,7 @@
             box-shadow: 10px 10px 15px $color-secundario(0, 0, 0, .7);
             .form-titulo h1{
                 font-family: "akira";
-                font-size: 50px;
+                font-size: map-get($tamanios,h2);
                 color: $color-texto;
                 text-shadow: 5px 5px 15px $color-secundario;
                 text-align: center;
@@ -22,16 +22,20 @@
             }
             .form-label{
                 font-family: 'Montserrat', sans-serif;
-                font-size: 15px;
-                font-weight: bold;
+                font-size: map-get($tamanios,h6);
+                font-weight: 900;
+                padding: 0 20px;
+                color: $color-texto;
+                background-color: $color-primario;
             }
             .form-text{
                 font-family: 'Montserrat', sans-serif;
-                font-size: 15px;
+                font-size: map-get($tamanios,p);
+                font-weight: 700;
+                color: $color-secundario;
             }
             .btn-contenedor{
-                display: flex;
-                justify-content: center;
+                @include flex(flex,column,center,center);
             }
             .form-control{
                 border: 1px solid $color-primario;
@@ -45,7 +49,7 @@
                 margin-bottom: 30px;
                 color: $color-texto;
                 font-family: "akira";
-                font-size: 20px;
+                font-size: map-get($tamanios,h6);
                 padding: 10px;
             }
         }

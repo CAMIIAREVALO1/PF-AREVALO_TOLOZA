@@ -4,9 +4,7 @@
     .tour {
         width: 100%;
         .imagen-tour {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(flex,column,center,center);
             img {
                 padding: 10px 0 0;
                 width: 100%;
@@ -18,8 +16,7 @@
             color: $color-texto;
             .title-tour {
                 background-color: $color-primario;
-                display: flex;
-                justify-content: center;
+                @include flex(flex,column,center,center);
                 margin-bottom: 80px;
                 h1 {
                     font-family: "akira";
@@ -34,11 +31,10 @@
                 --bs-accordion-btn-focus-box-shadow: none;
                 --bs-accordion-bg: #{$color-secundario};
                 .accordion-item {
-                    display: flex;
-                    flex-direction: column;
+                    @include flex(flex,column,none,none);
                     h2 .accordion-button {
                         font-family: "akira";
-                        font-size: 30px;
+                        font-size: map-get($tamanios,h4);
                         color: $color-texto;
                         &:hover {
                             color: $color-primario;
@@ -47,17 +43,14 @@
                     .accordion-collapse .accordion-body {
                         padding: 50px 20px 15px;
                         .show-item {
-                            display: flex;
+                            @include flex(flex,row,center,center);
                             margin-bottom: 50px;
-                            align-items: center;
                             color: $color-texto;
                             .show-date {
                                 background-color: $color-primario;
-                                font-size: 35px;
+                                font-size: map-get($tamanios,h4);
                                 letter-spacing: 1px;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
+                                @include flex(flex,column,center,none);
                                 margin-right: 40px;
                                 .show-date-day {
                                     padding: 0 10px;
@@ -67,21 +60,18 @@
                                     font-family: "Akira";
                                     background-color: $color-texto;
                                     color: $color-secundario;
-                                    font-size: 20px;
-                                    display: flex;
-                                    justify-content: center;
+                                    font-size: map-get($tamanios,h6);
+                                    @include flex(flex,row,center,center);
                                 }
                             }
                             .show-info {
                                 width: 100%;
-                                display: flex;
-                                align-items: center;
-                                justify-content: space-between;
+                                @include flex(flex,row,space-between,center);
                                 font-family: 'Montserrat', sans-serif;
-                                font-size: 25px;
+                                font-size: map-get($tamanios,h6);
                                 .show-title .show-country {
                                     font-family: "Akira";
-                                    font-size: 30px;
+                                    font-size: map-get($tamanios,h5);
                                 }
                                 .show-button button {
                                     background-color: $color-primario;
@@ -90,7 +80,7 @@
                                     font-family: "akira";
                                     color: $color-texto;
                                     padding: 10px;
-                                    font-size: 20px;
+                                    font-size: map-get($tamanios,h6);
                                 }
                             }
                         }

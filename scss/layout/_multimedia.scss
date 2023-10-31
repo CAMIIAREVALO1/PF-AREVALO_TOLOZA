@@ -5,20 +5,15 @@
     .fotos-galeria {
         width: 100%;
         padding: 100px 0 0 ;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex(flex,column,center,center);
         .title-fotos h1 {
             font-family: "akira";
-            font-size: 70px;
+            font-size: map-get($tamanios,h1);
             color: $color-texto;
             padding: 50px 0 0;
         }
         .galeria {
-            display: flex;
-            justify-content: center;
-            align-content: center;
+            @include flex(flex,column,center,center);
             padding: 50px 0 100px 0;
             .grilla-fotos{
                 display: grid;
@@ -75,23 +70,18 @@
     .videos {
         width: 100%;
         background-color: $color-primario;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex(flex,column,center,center);
         .title-videos {
             padding: 100px 20px 20px 20px;
             h2 {
                 font-family: "akira";
-                font-size: 70px;
+                font-size: map-get($tamanios,h1);
                 color:$color-texto;
                 text-shadow: 5px 5px 15px $color-secundario;
             }
         }
         .galeria-videos {
-            display: flex;
-            justify-content: center;
-            align-content: center;
+            @include flex(flex,column,center,center);
             .grilla-videos {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;

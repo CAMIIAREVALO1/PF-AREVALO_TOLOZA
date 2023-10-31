@@ -1,52 +1,36 @@
 /********************************** FOOTER **********************************/
 .footer {
     background-color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px 0 30px;
+    @include flex(flex,column,center,center);
+    padding: 50px 0 15px;
     .nav-list {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 0 25px;
-        ul li {
-            display: inline;
-            list-style-type: none;
-            a {
-                font-family: 'Montserrat', sans-serif;
-                color: $color-texto;
-                font-size: 15px;
-                text-decoration: underline;
-                padding: 10px 20px;
+        padding: 15px 0 25px;
+        ul {
+            padding: 0;
+            li {
+                display: inline;
+                list-style-type: none;
+                a {
+                    font-family: 'Montserrat', sans-serif;
+                    color: $color-texto;
+                    font-size: map-get($tamanios,p);
+                    text-decoration: underline;
+                    padding: 10px 20px;
+                }
             }
         }
     }
     .redes {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         margin: 20px 0;
-        .titulo-redes {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 25px;
-            h4 {
-                font-family: "akira";
-                font-size: 15px;
-                color: $color-texto;
-            }
+        .titulo-redes p {
+            font-family: "akira";
+            font-size: map-get($tamanios,p);
+            color: $color-texto;
         }
         .iconos-redes {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(flex,row,center,center);
             ul {
-                display: flex;
+                padding: 10px 0 0;
                 li {
                     display: inline;
                     list-style-type: none;
@@ -56,14 +40,11 @@
         }
     }
     .copyright {
-        width: 100%;
         padding: 20px 0 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(flex,column,center,center);
         p {
             font-family: 'Montserrat', sans-serif;
-            font-size: 10px;
+            font-size: 12px;
             color: $color-texto;
             text-align: center;
         }
