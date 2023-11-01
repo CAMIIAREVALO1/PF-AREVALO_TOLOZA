@@ -189,29 +189,31 @@
                         h2 .accordion-button{
                             font-size: map-get($tamanios, h6);
                         }
-                        .accordion-collapse .accordion-body .show-item{
-                            @include flex(flex, row, none, none);
-                            /*flex-direction: row;*/
-                            align-items: normal;
-                            .show-date{
-                                font-size: map-get($tamanios, h6);
-                                margin-right: 20px;
-                                line-height: 3.5em;
-                            }
-                            .show-info{
-                                @include flex(flex, column, none, flex-start);
-                                /*flex-direction: column;
-                                align-items: flex-start;*/
-                                font-size: map-get($tamanios, p);
-                                .show-title{
-                                    .show-country{
-                                        font-size: 18px;
-                                    }
+                        .accordion-collapse .accordion-body {
+                            @include flex(flex, column, center, flex-start);
+                            padding: 50px 0 15px 10px;
+                            .show-item{
+                                @include flex(flex, row, center, normal);
+                                .show-date{
+                                    font-size: map-get($tamanios, h6);
+                                    margin-right: 20px;
+                                    line-height: 4em;
                                 }
-                                .show-button{
-                                    margin-top: 10px;
-                                    button{
-                                        font-size: map-get($tamanios, p);
+                                .show-info{
+                                    @include flex(flex, column, none, flex-start);
+                                    /*flex-direction: column;
+                                    align-items: flex-start;*/
+                                    font-size: map-get($tamanios, p);
+                                    .show-title{
+                                        .show-country{
+                                            font-size: 18px;
+                                        }
+                                    }
+                                    .show-button{
+                                        margin-top: 10px;
+                                        button{
+                                            font-size: map-get($tamanios, p);
+                                        }
                                     }
                                 }
                             }
@@ -245,21 +247,6 @@
             }
         }
     }
-    /*.contactanos{
-        background-size: cover;
-        .form-container{
-            padding: 150px 0 100px;
-            .row{
-                margin: 0;
-                .form-input-container{
-                    padding: 0 10px;
-                    .form-titulo h1{
-                        font-size: map-get($tamanios, h6);
-                    }
-                }
-            }
-        }
-    }*/
     /************ CIERRE CONTACTO ************/
 
     /************ FOOTER ************/

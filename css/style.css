@@ -779,18 +779,23 @@ header .navbar .navbar-collapse .nav-link:hover {
   #tour .tour .contenedor-acordeon .accordion .accordion-item h2 .accordion-button {
     font-size: 20px;
   }
+  #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0 15px 10px;
+  }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item {
     display: flex;
     flex-direction: row;
-    justify-content: none;
-    align-items: none;
-    /*flex-direction: row;*/
+    justify-content: center;
     align-items: normal;
   }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-date {
     font-size: 20px;
     margin-right: 20px;
-    line-height: 3.5em;
+    line-height: 4em;
   }
   #tour .tour .contenedor-acordeon .accordion .accordion-item .accordion-collapse .accordion-body .show-item .show-info {
     display: flex;
@@ -831,21 +836,6 @@ header .navbar .navbar-collapse .nav-link:hover {
   #contacto .contactanos-formulario .form-container .row .form-input-container .form-titulo h1 {
     font-size: 20px;
   }
-  /*.contactanos{
-      background-size: cover;
-      .form-container{
-          padding: 150px 0 100px;
-          .row{
-              margin: 0;
-              .form-input-container{
-                  padding: 0 10px;
-                  .form-titulo h1{
-                      font-size: map-get($tamanios, h6);
-                  }
-              }
-          }
-      }
-  }*/
   /************ CIERRE CONTACTO ************/
   /************ FOOTER ************/
   .footer {
