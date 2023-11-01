@@ -1,56 +1,63 @@
 /********************************** CONTACTANOS **********************************/
-.contactanos{
-    height: auto;
+#contacto{
     width: 100%;
-    background-image: url(../IMG/usted-group.webp);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    .form-container{
-        padding: 200px 0 100px;
-        .form-input-container{
-            padding: 0 50px;
-            background-color: rgba(220, 220, 220, .7);
-            box-shadow: 10px 10px 15px $color-secundario(0, 0, 0, .7);
-            .form-titulo h1{
-                font-family: "akira";
-                font-size: map-get($tamanios,h2);
+    background-color: $color-secundario;
+    @include flex(flex, column,center,center);
+    .form-titulo{
+        height: 1000px;
+        width: 100%;
+        background-image: url(../IMG/crop-usted-senalemelo-5.webp);
+        background-position: center;
+        background-size: cover;
+        @include flex(flex, column, flex-end,center);
+        h1{
+            font-family: "akira";
+            font-size: map-get($tamanios,h1);
+            color: $color-texto;
+            text-shadow: 5px 5px 15px $color-secundario;
+            margin-bottom: 30px;
+        }
+    }
+    .contactanos-formulario{
+        width: 100%;
+        margin-top: 50px;
+        .form-container{
+            padding: 50px 0;
+            .mb-3{
+                margin-bottom: 30px !important;
+            }
+            .form-input-container{
+                padding: 0 50px;
                 color: $color-texto;
-                text-shadow: 5px 5px 15px $color-secundario;
-                text-align: center;
-                padding: 30px 0;
-            }
-            .form-label{
-                font-family: 'Montserrat', sans-serif;
-                font-size: map-get($tamanios,h6);
-                font-weight: 900;
-                padding: 0 20px;
-                color: $color-texto;
-                background-color: $color-primario;
-            }
-            .form-text{
-                font-family: 'Montserrat', sans-serif;
-                font-size: map-get($tamanios,p);
-                font-weight: 700;
-                color: $color-secundario;
-            }
-            .btn-contenedor{
-                @include flex(flex,column,center,center);
-            }
-            .form-control{
-                border: 1px solid $color-primario;
-            }
-            .form-check-input:checked{
-                background-color: $color-primario;
-                border-color: $color-primario;
-            }
-            .btn{
-                background-color: $color-primario;
-                margin-bottom: 30px;
-                color: $color-texto;
-                font-family: "akira";
-                font-size: map-get($tamanios,h6);
-                padding: 10px;
+                .form-label{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: map-get($tamanios,h6);
+                    font-weight: 900;
+                }
+                .form-text{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: map-get($tamanios,p);
+                    font-weight: 500;
+                    color: $color-texto
+                }
+                .btn-contenedor{
+                    @include flex(flex,column,center,center);
+                }
+                .form-control{
+                    border: 1px solid $color-primario;
+                }
+                .form-check-input:checked{
+                    background-color: $color-primario;
+                    border-color: $color-primario;
+                }
+                .btn{
+                    background-color: $color-primario;
+                    margin-bottom: 30px;
+                    color: $color-texto;
+                    font-family: "akira";
+                    font-size: map-get($tamanios,h6);
+                    padding: 10px;
+                }
             }
         }
     }

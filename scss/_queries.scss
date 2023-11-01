@@ -224,7 +224,28 @@
     /************ CIERRE TOUR ************/
 
     /************ CONTACTO ************/
-    .contactanos{
+    #contacto{
+        .form-titulo {
+            height: 330px;
+            margin-top: 50px;
+            h1{
+                font-size: map-get($tamanios, h5)
+            }
+        }
+        .contactanos-formulario .form-container{
+            padding: 0 0 30px;
+            .row{
+                margin: 0;
+                .form-input-container{
+                    padding: 0 10px;
+                    .form-titulo h1{
+                        font-size: map-get($tamanios, h6);
+                    }
+                }
+            }
+        }
+    }
+    /*.contactanos{
         background-size: cover;
         .form-container{
             padding: 150px 0 100px;
@@ -238,7 +259,7 @@
                 }
             }
         }
-    }
+    }*/
     /************ CIERRE CONTACTO ************/
 
     /************ FOOTER ************/
