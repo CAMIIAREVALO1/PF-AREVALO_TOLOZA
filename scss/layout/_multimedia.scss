@@ -84,9 +84,9 @@
             @include flex(flex,column,center,center);
             .grilla-videos {
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
-                padding: 20px 20px 50px;
+                padding: 20px 0 50px;
                 gap: 20px;
             }
         }
