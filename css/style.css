@@ -29,7 +29,7 @@ header a.back-to-top:hover {
 }
 header .navbar {
   background-color: #000000;
-  z-index: 1;
+  z-index: 4;
   position: fixed;
   width: 100%;
 }
@@ -650,7 +650,6 @@ header .navbar .navbar-collapse .nav-link:hover {
     background-color: #ffffff;
   }
   header .navbar {
-    z-index: 4;
     background-color: #FD72AB;
   }
   header .navbar img {
