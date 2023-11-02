@@ -50,7 +50,7 @@
                 --bs-accordion-bg: #{$color-secundario};
                 .accordion-item {
                     @include flex(flex,column,none,none);
-                    h2 .accordion-button {
+                    h2 .accordion-button{
                         font-family: "akira";
                         font-size: map-get($tamanios,h4);
                         color: $color-texto;
